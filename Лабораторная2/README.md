@@ -2,9 +2,11 @@
 
 Внутренний прототип без публикации (аудит персональных данных и согласий). Исходные скрипты сохранены без изменений.
 
+[Задание](lab2.md).
+
 ## Итоговые документы
 
-- [Отчёт Markdown](reports/report.md), [отчёт Word](reports/Отчёт_ЛР2_Вариант23.docx).
+- [Отчёт Word](reports/Король-Алексей-Юрьевич_ЛР1-2_вариант-23.docx).
 - [Аудит с решениями](artifacts/v23/audit_decisions.md), [решения по всем объектам](artifacts/v23/decisions.csv).
 - [Паспорт данных](artifacts/v23/data_card.md).
 - [Карточка модели](artifacts/v23/model_card.md).
@@ -34,7 +36,7 @@ python3 -m venv .venv
 
 `audit_original/` хранит исходный вывод и незаполненную автоматическую заготовку. Окончательные документы перечислены выше. `model_card_generated.md` — исходная заготовка карточки, `model_card.md` — дополненная версия. Файлы `*_bad*` — намеренно ошибочный пример проверки реестра. `audit_publication_test/` относится к дополнительному сценарию.
 
-[Копия паспорта ЛР 1](inputs/lr01_passport.json) хранится локально, её SHA-256 записан в [environment.json](reports/environment.json). [MIT исходного учебного кода](inputs/Trira-MIT.txt). Документация Word использует отдельные зависимости из tools/requirements-docx.txt; экспериментальная среда остаётся без сторонних пакетов.
+[Копия паспорта ЛР 1](inputs/lr01_passport.json) хранится локально, её SHA-256 записан в [environment.json](reports/environment.json). [MIT исходного учебного кода](inputs/Trira-MIT.txt).
 
 
 [Итоговая проверка артефактов](reports/validation.log).

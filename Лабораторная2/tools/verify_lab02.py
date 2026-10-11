@@ -78,7 +78,7 @@ def main():
         assert len(parts)-1==sections,(filename,len(parts)-1)
         assert all(len(part.split('\n',1)[1].strip())>30 for part in parts[1:])
         assert not re.search(r'Заполняет студент|Студент дополняет|не указан[ао]?\.',text),filename
-    for md in [ROOT/'README.md',ROOT/'reports/report.md',v/'data_card.md',v/'model_card.md']:
+    for md in [ROOT/'README.md',v/'data_card.md',v/'model_card.md']:
         if md.exists():
             for link in re.findall(r'\]\(([^)]+)\)',md.read_text()):
                 if not link.startswith(('http://','https://','#')):assert (md.parent/link).exists(),(md,link)
