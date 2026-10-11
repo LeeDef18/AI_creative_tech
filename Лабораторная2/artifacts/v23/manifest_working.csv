@@ -1,0 +1,8 @@
+id,filename,media_type,source,date_acquired,license,rights_holder,personal_data,consent,sha256
+item02,item02.txt,text,https://example.org/archive/item02,2026-03-14,MIT,Автор-01,no,n-a,dee1a41371b3c655e8df6300a9841b5ff7533ce89c8b174318f9a02b9e251f76
+item03,item03.png,image,https://example.org/archive/item03,2026-07-12,MIT,Автор-24,no,n-a,baaaf8241f48c8f5ea035df50c5962eb0f1b13d9f1800c537390008b7cfd4f60
+item05,item05.txt,text,https://example.org/archive/item05,2026-05-15,CC0-1.0,Автор-33,no,n-a,05bc83f4e325a1c009b25632b00606c82dff8abdd8951642b311b479cd5a6958
+item06,item06.png,image,https://example.org/archive/item06,2026-03-07,CC-BY-4.0,Автор-07,no,n-a,eae456374d4ccfbe7a435a213d9af37b543ff8159b94e393452f1a494e5cdffd
+item10,item10.wav,audio,https://example.org/archive/item10,2026-05-19,Apache-2.0,Автор-23,no,n-a,a764a9f1f982c36193380e94724ea00e3ae88ae8e9839d3cfe6d0f3ed91c7c6b
+item11,item11.txt,text,https://example.org/archive/item11,2026-08-19,Apache-2.0,Автор-13,no,n-a,c67fb8bce60a59a1570fd7402f81be57ff64ece1f4d4fa7971fc8d24f63052ec
+item12,item12.png,image,https://example.org/archive/item12,2026-06-21,CC-BY-4.0,Автор-04,no,n-a,d20f6c1225913564211988da7b18d4d627ffe088cea8f27a21cff6e651719b38

@@ -1,0 +1,13 @@
+id,filename,media_type,source,date_acquired,license,rights_holder,personal_data,consent,sha256
+item01,item01.wav,audio,https://example.org/archive/item01,2026-01-25,CC-BY-NC-SA-4.0,Автор-06,no,n-a,143e224e1f55b6962ccbb8e8e1b932384972fcd2f9d2b0a4058ce247e708fdad
+item02,item02.txt,text,https://example.org/archive/item02,2026-07-26,CC-BY-4.0,Автор-27,no,n-a,a80a9752f702b5ac92f5b2c4d2a5c75be9a941a2e3dbde53081dc8055a106b2c
+item03,item03.png,image,https://example.org/archive/item03,2026-06-19,Apache-2.0,Автор-37,no,n-a,dc3a4b0868777768a7a353bf7204514dbb12295cd9a2c0df0c5991b2c6b840f4
+item04,item04.wav,audio,https://example.org/archive/item04,2026-04-20,CC-BY-NC-SA-4.0,Автор-02,no,n-a,c10e3ab193858abb5c06dd644da28d2fcd597572f441d554fb0520c3777104ee
+item05,item05.txt,text,https://example.org/archive/item05,2026-08-23,CC-BY-4.0,Автор-33,no,n-a,f427c941f7228884842b87d6829ef744d8be319404ae7d88f3eae2b1acbaefdc
+item06,item06.png,image,https://example.org/archive/item06,2026-03-01,CC0-1.0,Автор-27,no,n-a,2ad93027cf9bc90bd4d1ef641cf1531188e213c31d1ab6ecd5658d50c8cf88ce
+item07,item07.wav,audio,https://example.org/archive/item07,2026-03-04,MIT,Автор-28,no,n-a,81619d8ded0ce60440f1fe83fb96fb8c533a2cd36f10ef60969904783206cd46
+item08,item08.txt,text,https://example.org/archive/item08,2026-02-18,CC-BY-NC-4.0,Автор-06,no,n-a,a3fc97e61038bb007bdd43e938f11cbd3792d37f9f9610e2b3aac129f4dc4da9
+item09,item09.png,image,https://example.org/archive/item09,,CC-BY-4.0,Автор-26,no,n-a,5cefbd31ffc4fea544122a062cfb1a7d46280793af87157754e1f785094ade41
+item10,item10.wav,audio,https://example.org/archive/item10,2026-01-05,CC-BY-NC-4.0,Автор-39,no,n-a,124d2fa58b9c8217c0750b156e982594f08678facc49ae26b9c7d4d570daabf2
+item11,item11.txt,text,https://example.org/archive/item11,2026-04-01,Apache-2.0,Автор-38,no,n-a,6c4fe0675f94c8c21e97e6e9484ad574e41134cae5b3b99db843c16c11453a53
+item12,item12.png,image,https://example.org/archive/item12,2026-06-07,CC-BY-4.0,Автор-35,no,n-a,f6a4706f9a90ccbb3e998fe48d9caddc8ee226f0e23d269a299980c10c364a2d

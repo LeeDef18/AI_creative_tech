@@ -1,0 +1,11 @@
+# Демонстрация типичной ошибки: реестр рисков не проходит проверку (выполнено 2026-09-19 06:50:37 UTC)
+> python lab02_risks.py --csv risk_register_bad.csv
+FAIL 1: R01: категория «Copyright» не из перечня NIST AI 600-1
+FAIL 2: R01: likelihood и impact должны быть целыми от 1 до 5
+FAIL 3: R01: не заполнено поле «owner»
+FAIL 4: рисков 3, требуется не менее 5
+FAIL 5: нужно не менее 4 разных категорий
+RESULT: FAIL (5)
+
+> python lab02_risks.py --csv risk_register.csv  (исправленный реестр)
+RESULT: PASS

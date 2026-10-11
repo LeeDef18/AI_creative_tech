@@ -1,0 +1,21 @@
+{
+  "created": "2026-10-11T22:37:49+03:00",
+  "python": "3.14.4",
+  "implementation": "CPython",
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "third_party_packages": [],
+  "source_sha256": {
+    "lab02_audit.py": "50bf77e48dca05a123f30ca259ed420d7bb4bee8792373cab4ebaf67087f90ae",
+    "lab02_common.py": "00624727e535237bb9a363abfed1f6d14a50e748e52a0fc57e03877727706f41",
+    "lab02_make_variant.py": "4db53312f631af41e324d73166a465e0046732faa9a92c414ba571fa62f742dd",
+    "lab02_model_card.py": "1bd32cd27a64395bcff81053518a3bc2f1576b937a7373207f47899382ece1ac",
+    "lab02_risks.py": "9581afb696758047d3dc427b7287ab00221e3e2f06f8ecddc6cbd7477e9f6f47"
+  },
+  "lr01_passport_sha256": "d9eaf9c006cb7eb8213cbed0c73d829d545f8655f5c0fd083143833e086740c6",
+  "expectations_sha256": "5d91c8dcc220c953dbeef2438f1f6e2f7def4598bcd4b26aa6f48f2336b1d253",
+  "input_files_sha256": {
+    "variant.json": "9c225b0457523de5b54c6cccedad577d15ba7705556d03c57ba8290c0823d077",
+    "policy.json": "5948900b1495671b3fdd0b81b3cf5b666a778823302533065648eeeb86fcad6a",
+    "manifest.csv": "d8b446005ba2e2e9f9b3f408ce0ac60df59edaf4a766aa83344ee767e4eab51d"
+  }
+}

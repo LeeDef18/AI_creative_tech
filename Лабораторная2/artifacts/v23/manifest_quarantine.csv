@@ -1,0 +1,6 @@
+id,filename,media_type,source,date_acquired,license,rights_holder,personal_data,consent,sha256
+item01,item01.wav,audio,https://example.org/archive/item01,2026-08-23,Apache-2.0,Автор-31,yes,document,b267f5112adabf8f68acdbbf06f0c6cf18b5206d4626f9df286adf51c6b92e66
+item04,item04.wav,audio,https://example.org/archive/item04,2026-07-14,MIT,Автор-05,yes,none,8834f9313f953b8e7e92fbcfbb68c01cb76e38b924dfb16e27e06ef36f0ed945
+item07,item07.wav,audio,https://example.org/archive/item07,2026-06-09,MIT,Автор-30,yes,n-a,13888c3f485a3d9dc548ce0368d58d26363692a1051652e6af20b159aca860e5
+item08,item08.txt,text,https://example.org/archive/item08,2026-07-24,MIT,,no,n-a,ab896e7572fc7750f83423993627385305edaf8238cfa0105814e7a5982234f6
+item09,item09.png,image,https://example.org/archive/item09,2026-04-15,CC0-1.0,Автор-30,yes,document,bcb4cbd92720e71e5e3bd47cbaa87976197a2b81c6604abcd6ef4697be5316ec

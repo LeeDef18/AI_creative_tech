@@ -1,0 +1,64 @@
+[2026-10-11T22:37:17+03:00] $ .venv/bin/python --version
+Python 3.14.4
+Exit code: 0
+
+[2026-10-11T22:37:17+03:00] $ .venv/bin/python -m pip freeze
+WARNING: The directory '/home/alex/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Exit code: 0
+
+[2026-10-11T22:37:18+03:00] $ .venv/bin/python src/lab02_make_variant.py --variant 23 --out artifacts/v23
+вариант 23: внутренний прототип без публикации | персональные данные и разные виды согласий -> artifacts/v23
+Exit code: 0
+
+[2026-10-11T22:37:49+03:00] $ .venv/bin/python src/lab02_audit.py --manifest artifacts/v23/manifest.csv --policy artifacts/v23/policy.json --out artifacts/v23/audit_original
+объектов 12; ошибок 2; предупреждений 1
+Exit code: 0
+
+[2026-10-11T22:39:19+03:00] $ .venv/bin/python src/lab02_audit.py --manifest artifacts/v23/manifest_working.csv --policy artifacts/v23/policy.json --out artifacts/v23/audit_working
+объектов 7; ошибок 0; предупреждений 0
+Exit code: 0
+
+[2026-10-11T22:39:19+03:00] $ .venv/bin/python src/lab02_audit.py --manifest artifacts/v23/manifest.csv --policy artifacts/v23/policy_publication_test.json --out artifacts/v23/audit_publication_test
+объектов 12; ошибок 2; предупреждений 3
+Exit code: 0
+
+[2026-10-11T22:39:19+03:00] $ .venv/bin/python src/lab02_model_card.py --passport inputs/lr01_passport.json --code-license MIT --owner 'Король Алексей Юрьевич' --out artifacts/v23/model_card_generated.md
+карточка модели записана: artifacts/v23/model_card_generated.md
+Exit code: 0
+
+[2026-10-11T22:39:19+03:00] $ .venv/bin/python src/lab02_risks.py --csv artifacts/v23/risk_register_bad.csv --out artifacts/v23/risk_ranking_bad.md
+# Реестр рисков (ранжирование)
+
+| Место | Оценка | Категория | Описание | Мера | Ответственный | Признак |
+|---:|---:|---|---|---|---|---|
+| 1 | 15 | Information Security | Материалы внутреннего прототипа случайно переданы наружу через репозиторий или внешний сервис | Ограничить доступ и экспорт; проверять состав выгрузки; учебный репозиторий содержит только синтетические записи | ответственный за информационную безопасность | В журнале доступа или списке выгрузки обнаружена передача исходных материалов внешнему получателю |
+| 2 | 12 | Value Chain and Component Integration | В состав прототипа включён сторонний материал с неустановленным правообладателем | Карантин item08; проверять происхождение компонента и хранить версию манифеста с подтверждениями | куратор данных | В рабочем манифесте найден пустой rights_holder или материал без прослеживаемого источника |
+
+FAIL 1: R01: категория «Copyright» не из перечня NIST AI 600-1
+FAIL 2: R01: likelihood и impact должны быть целыми от 1 до 5
+FAIL 3: R01: не заполнено поле «owner»
+FAIL 4: рисков 3, требуется не менее 5
+FAIL 5: нужно не менее 4 разных категорий
+RESULT: FAIL (5)
+Exit code: 1
+
+[2026-10-11T22:39:19+03:00] $ .venv/bin/python src/lab02_risks.py --csv artifacts/v23/risk_register.csv --out artifacts/v23/risk_ranking.md
+# Реестр рисков (ранжирование)
+
+| Место | Оценка | Категория | Описание | Мера | Ответственный | Признак |
+|---:|---:|---|---|---|---|---|
+| 1 | 20 | Data Privacy | В прототип включены записи с персональными данными без проверенного основания обработки | Карантин item04 и item07; item01 и item09 допускаются только после содержательной проверки документов | куратор данных | В рабочем манифесте появилась запись personal_data=yes без зарегистрированного решения по документу |
+| 2 | 16 | Human-AI Configuration | Решение об использовании принято только по отсутствию ошибок автоматического аудита | Разделить автоматическую проверку и ручной допуск; отдельно проверять document даже при отсутствии R7 | руководитель прототипа | В решении стоит только ссылка на нулевое число ошибок, а содержательная проверка согласия не зафиксирована |
+| 3 | 15 | Information Security | Материалы внутреннего прототипа случайно переданы наружу через репозиторий или внешний сервис | Ограничить доступ и экспорт; проверять состав выгрузки; учебный репозиторий содержит только синтетические записи | ответственный за информационную безопасность | В журнале доступа или списке выгрузки обнаружена передача исходных материалов внешнему получателю |
+| 4 | 12 | Value Chain and Component Integration | В состав прототипа включён сторонний материал с неустановленным правообладателем | Карантин item08; проверять происхождение компонента и хранить версию манифеста с подтверждениями | куратор данных | В рабочем манифесте найден пустой rights_holder или материал без прослеживаемого источника |
+| 5 | 12 | Intellectual Property | При включении материалов в прототип потеряны авторство или обязательные лицензионные уведомления | Сохранять лицензию и сведения об авторе для каждого объекта; перед реальным использованием сверить исходный текст условий | ответственный за лицензии | В комплекте компонента отсутствует требуемое лицензионное уведомление или указание автора |
+| 6 | 9 | Information Integrity | Учебные метаданные и хеши строк представлены как доказательство существования и проверки реальных материалов | Маркировать набор как синтетический; описать происхождение sha256; не подменять заглушки проверенными источниками | ответственный за документацию | В карточке или отчёте заявлена проверка реального файла либо согласия при наличии только синтетической записи |
+
+RESULT: PASS
+Exit code: 0
+
+[2026-10-11T22:41:38+03:00] $ .venv/bin/python tools/verify_lab02.py
+VALIDATION: PASS
+Source and input hashes; expectations before audit; deterministic variant; all findings and 12 decisions; 7+5 partition; publication test; required risk categories; seven and nine document sections; references.
+Exit code: 0
+
