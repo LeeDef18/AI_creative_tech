@@ -1,0 +1,3 @@
+OK: script hashes, all saved runs and PNGs, means, sample deviations, criterion, seed protocol, 16 levels.
+
+Итоговая проверка: подтверждены расчёты n=50, стандартные ошибки парных разностей, совпадение демо, вывод Engee и хеш ngscript. Таблицы DOCX сверены с JSON. Вёрстка проверена через PDF-экспорт LibreOffice; титульный лист, оформление и изображения сохранены.

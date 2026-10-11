@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-11 14:28:50 UTC",
+  "variant": 23,
+  "context": "water",
+  "context_title": "водная рябь (фон видеозаставки)",
+  "factor": "quantize",
+  "factor_title": "квантование до 4 бит",
+  "base_seed": 101,
+  "n": 5,
+  "seeds_repro": [
+    101,
+    101,
+    1101,
+    101
+  ],
+  "eq": {
+    "EQ_1_2": true,
+    "EQ_1_4": true,
+    "EQ_1_3": false,
+    "EQ_2_4": true
+  },
+  "eq_png": {
+    "EQ_1_2_png": true
+  },
+  "params_base": {
+    "size": 96,
+    "cell": 8,
+    "octaves": 4,
+    "persistence": 0.45,
+    "quantize": 8,
+    "interp": "smooth"
+  },
+  "params_perturbed": {
+    "size": 96,
+    "cell": 8,
+    "octaves": 4,
+    "persistence": 0.45,
+    "quantize": 4,
+    "interp": "smooth"
+  },
+  "runs_repro": [
+    {
+      "seed": 101,
+      "params": {
+        "size": 96,
+        "cell": 8,
+        "octaves": 4,
+        "persistence": 0.45,
+        "quantize": 8,
+        "interp": "smooth"
+      },
+      "sha256_pixels": "a97e0c92ebffc1d01b67b19986b475fb352630e338d98575286cf3afc0d943fe",
+      "sha256_png": "d2f319fd6002324771a660b8e24f856c25a431316d67005148f58a36cabc4ef3",
+      "mean": 0.4907879731753813,
+      "contrast": 0.14168145477207075,
+      "edge": 0.0380968352253182,
+      "entropy": 7.188655668467935
+    },
+    {
+      "seed": 101,
+      "params": {
+        "size": 96,
+        "cell": 8,
+        "octaves": 4,
+        "persistence": 0.45,
+        "quantize": 8,
+        "interp": "smooth"
+      },
+      "sha256_pixels": "a97e0c92ebffc1d01b67b19986b475fb352630e338d98575286cf3afc0d943fe",
+      "sha256_png": "d2f319fd6002324771a660b8e24f856c25a431316d67005148f58a36cabc4ef3",
+      "mean": 0.4907879731753813,
+      "contrast": 0.14168145477207075,
+      "edge": 0.0380968352253182,
+      "entropy": 7.188655668467935
+    },
+    {
+      "seed": 1101,
+      "params": {
+        "size": 96,
+        "cell": 8,
+        "octaves": 4,
+        "persistence": 0.45,
+        "quantize": 8,
+        "interp": "smooth"
+      },
+      "sha256_pixels": "ca074f2078b07cd1d1abb4c898e6dd269ae793bf1e3b69bec3d1859ce7625818",
+      "sha256_png": "9863d416130a347a3aa820fbb8050aa35443bb522db621bf7f7b6e076fc0e5bc",
+      "mean": 0.48990800313180827,
+      "contrast": 0.1284675089545077,
+      "edge": 0.038022015823873406,
+      "entropy": 7.053876691969461
+    },
+    {
+      "seed": 101,
+      "params": {
+        "size": 96,
+        "cell": 8,
+        "octaves": 4,
+        "persistence": 0.45,
+        "quantize": 8,
+        "interp": "smooth"
+      },
+      "sha256_pixels": "a97e0c92ebffc1d01b67b19986b475fb352630e338d98575286cf3afc0d943fe",
+      "sha256_png": "d2f319fd6002324771a660b8e24f856c25a431316d67005148f58a36cabc4ef3",
+      "mean": 0.4907879731753813,
+      "contrast": 0.14168145477207075,
+      "edge": 0.0380968352253182,
+      "entropy": 7.188655668467935
+    }
+  ],
+  "metrics_table": {
+    "mean": {
+      "mean_base": 0.5020044424019608,
+      "s_base": 0.01731757864716333,
+      "mean_pert": 0.5022048611111112,
+      "s_pert": 0.0174648266184358,
+      "delta": 0.00020041870915032955,
+      "delta_over_s": 0.011573136939854968,
+      "significant": false
+    },
+    "contrast": {
+      "mean_base": 0.13756705644604766,
+      "s_base": 0.003988457058056076,
+      "mean_pert": 0.1388815176849797,
+      "s_pert": 0.003910932235826406,
+      "delta": 0.0013144612389320298,
+      "delta_over_s": 0.3295663510472096,
+      "significant": false
+    },
+    "edge": {
+      "mean_base": 0.03725017199862401,
+      "s_base": 0.0006357326455580107,
+      "mean_pert": 0.03734941520467837,
+      "s_pert": 0.0006227323693012288,
+      "delta": 9.924320605435993e-05,
+      "delta_over_s": 0.15610839988758132,
+      "significant": false
+    },
+    "entropy": {
+      "mean_base": 7.142466564825924,
+      "s_base": 0.04164066832051356,
+      "mean_pert": 3.0868625230898536,
+      "s_pert": 0.04082884859958532,
+      "delta": -4.0556040417360695,
+      "delta_over_s": 97.39526778291754,
+      "significant": true
+    }
+  },
+  "significance_rule": "|Δ| > 2.0·s_base",
+  "env": {
+    "python": "3.14.4",
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+    "machine": "x86_64",
+    "zlib": "1.3.1",
+    "generator_version": "1.0",
+    "third_party_packages": "не используются (стандартная библиотека)"
+  },
+  "script_sha256": {
+    "lab01_generator.py": "8f07d340a5a765a8e44f1fec407489cf00114ba54216aa7539c4e7116680e152",
+    "lab01_experiment.py": "69257206dab50ef35de448b45764daad0d4f60dbc98febd8953c6faee28e06b5"
+  }
+}

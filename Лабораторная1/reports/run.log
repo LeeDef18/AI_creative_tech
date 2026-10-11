@@ -1,0 +1,33 @@
+$ .venv/bin/python --version
+Python 3.14.4
+Exit code: 0
+
+$ .venv/bin/python -m pip --version
+pip 25.1.1 from /home/alex/projects/AI_creative_ind/Лабораторная1/.venv/lib/python3.14/site-packages/pip (python 3.14)
+Exit code: 0
+
+$ .venv/bin/python -c 'import sys; sys.path.insert(0,"src"); import lab01_generator; print(lab01_generator.SCRIPT_VERSION)'
+1.0
+Exit code: 0
+
+$ .venv/bin/python src/lab01_generator.py --out artifacts/no_seed_run1
+{"seed": 200625856, "params": {"size": 96, "cell": 32, "octaves": 4, "persistence": 0.5, "quantize": 8, "interp": "smooth"}, "sha256_pixels": "32efe8077494166c5ea8cc4feae9a05090ccdb5c8b17741ccee7256ee0aa53b9", "sha256_png": "1386eb5bff276a344e445f43e55d51f76285030a894ab893b95796a6440ced2c", "mean": 0.558723107298475, "contrast": 0.12736616262761657, "edge": 0.010575335397316822, "entropy": 6.995405755038171}
+ПРЕДУПРЕЖДЕНИЕ: seed не задан, использован 200625856 — результат не воспроизводится
+Exit code: 0
+
+$ .venv/bin/python src/lab01_generator.py --out artifacts/no_seed_run2
+{"seed": 527392568, "params": {"size": 96, "cell": 32, "octaves": 4, "persistence": 0.5, "quantize": 8, "interp": "smooth"}, "sha256_pixels": "19764c940417c324929dc4160afbed7563437e6f4d4d110f1eb59b3f1b28d042", "sha256_png": "001977d50c31a0bb1f6620005bf23075bc6c898ebf6dd72fe8e79894cc62a078", "mean": 0.4761442163671024, "contrast": 0.1365945038305151, "edge": 0.010472566219470245, "entropy": 7.117778038943466}
+ПРЕДУПРЕЖДЕНИЕ: seed не задан, использован 527392568 — результат не воспроизводится
+Exit code: 0
+
+$ .venv/bin/python src/lab01_generator.py --out artifacts/fixed_seed_run1 --seed 101
+{"seed": 101, "params": {"size": 96, "cell": 32, "octaves": 4, "persistence": 0.5, "quantize": 8, "interp": "smooth"}, "sha256_pixels": "93fae5913d79728429ddcdf533063672739fd51e5afa6a7ac243e3e6a80d290b", "sha256_png": "9779f1fe26d3815c5663d067f4b3454c0be748ce6e64f18bf79366cfb0051b59", "mean": 0.4502076525054466, "contrast": 0.1334127822998053, "edge": 0.010212848297213622, "entropy": 7.040183729460281}
+Exit code: 0
+
+$ .venv/bin/python src/lab01_generator.py --out artifacts/fixed_seed_run2 --seed 101
+{"seed": 101, "params": {"size": 96, "cell": 32, "octaves": 4, "persistence": 0.5, "quantize": 8, "interp": "smooth"}, "sha256_pixels": "93fae5913d79728429ddcdf533063672739fd51e5afa6a7ac243e3e6a80d290b", "sha256_png": "9779f1fe26d3815c5663d067f4b3454c0be748ce6e64f18bf79366cfb0051b59", "mean": 0.4502076525054466, "contrast": 0.1334127822998053, "edge": 0.010212848297213622, "entropy": 7.040183729460281}
+Exit code: 0
+
+$ .venv/bin/python src/lab01_experiment.py --variant 23 --seed 101 --n 5 --out artifacts/v23
+контекст=water фактор=quantize EQ={'EQ_1_2': True, 'EQ_1_4': True, 'EQ_1_3': False, 'EQ_2_4': True} значимо=['entropy']
+Exit code: 0

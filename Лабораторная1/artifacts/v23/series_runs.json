@@ -1,0 +1,179 @@
+{
+  "note": "Индивидуальные серии повторно рассчитаны после основного запуска и сверены со сводной таблицей.",
+  "runs": {
+    "base": [
+      {
+        "seed": 101,
+        "params": {
+          "size": 96,
+          "cell": 8,
+          "octaves": 4,
+          "persistence": 0.45,
+          "quantize": 8,
+          "interp": "smooth"
+        },
+        "sha256_pixels": "a97e0c92ebffc1d01b67b19986b475fb352630e338d98575286cf3afc0d943fe",
+        "sha256_png": "d2f319fd6002324771a660b8e24f856c25a431316d67005148f58a36cabc4ef3",
+        "mean": 0.4907879731753813,
+        "contrast": 0.14168145477207075,
+        "edge": 0.0380968352253182,
+        "entropy": 7.188655668467935
+      },
+      {
+        "seed": 102,
+        "params": {
+          "size": 96,
+          "cell": 8,
+          "octaves": 4,
+          "persistence": 0.45,
+          "quantize": 8,
+          "interp": "smooth"
+        },
+        "sha256_pixels": "b8f14c089f1648f7d132e714ad289a0317574322b967d39f684d0b046144bb70",
+        "sha256_png": "875eebfe043636da45a01c41f19425efdf4c4b9d5479e507cb77500f55171d70",
+        "mean": 0.5242378982843138,
+        "contrast": 0.1350508556951047,
+        "edge": 0.03681071551427589,
+        "entropy": 7.1114628454902755
+      },
+      {
+        "seed": 103,
+        "params": {
+          "size": 96,
+          "cell": 8,
+          "octaves": 4,
+          "persistence": 0.45,
+          "quantize": 8,
+          "interp": "smooth"
+        },
+        "sha256_pixels": "ccfd9bf81fe9ef0589c18a7adc67eefbd254fcc96d4486dde7267c551e8b1490",
+        "sha256_png": "d8f0d4d821327b0c3548f43b24c475b3b992de0155826eb8f26f545505587383",
+        "mean": 0.5025560831971677,
+        "contrast": 0.13272570302188436,
+        "edge": 0.03659012727898177,
+        "entropy": 7.10132791408068
+      },
+      {
+        "seed": 104,
+        "params": {
+          "size": 96,
+          "cell": 8,
+          "octaves": 4,
+          "persistence": 0.45,
+          "quantize": 8,
+          "interp": "smooth"
+        },
+        "sha256_pixels": "996b056be0e1f6d14c8568b2685a3421742ea4caca1df79c0003c4c32f33ef48",
+        "sha256_png": "c4466455ad1d446d57a5fb522691c949f83d3b266aff6361cf9c72e7a56ccbec",
+        "mean": 0.480216418164488,
+        "contrast": 0.13677265774578282,
+        "edge": 0.03703087375300997,
+        "entropy": 7.125343841571705
+      },
+      {
+        "seed": 105,
+        "params": {
+          "size": 96,
+          "cell": 8,
+          "octaves": 4,
+          "persistence": 0.45,
+          "quantize": 8,
+          "interp": "smooth"
+        },
+        "sha256_pixels": "14f7da0994edc63938aa52249cb68e65a8cd15ad07a601dd2fb5278d289a1ea9",
+        "sha256_png": "2ca446178b8d9d6e2427945c7209f78b92e2fb30cc6dedfd83bf51e9ca2815d0",
+        "mean": 0.5122238391884532,
+        "contrast": 0.14160461099539576,
+        "edge": 0.037722308221534225,
+        "entropy": 7.185542554519026
+      }
+    ],
+    "perturbed": [
+      {
+        "seed": 101,
+        "params": {
+          "size": 96,
+          "cell": 8,
+          "octaves": 4,
+          "persistence": 0.45,
+          "quantize": 4,
+          "interp": "smooth"
+        },
+        "sha256_pixels": "2ec598e102742ce98d82241cdae5deb696cc31a8b56a4ac4113e19e5dcbcb5b7",
+        "sha256_png": "b555bed538f9922db8d2ee9ce3ba423f34569e17c1fd6f6463b2aac3ba34eb66",
+        "mean": 0.49076244212962966,
+        "contrast": 0.14275699457434723,
+        "edge": 0.037748538011695906,
+        "entropy": 3.1300259703125337
+      },
+      {
+        "seed": 102,
+        "params": {
+          "size": 96,
+          "cell": 8,
+          "octaves": 4,
+          "persistence": 0.45,
+          "quantize": 4,
+          "interp": "smooth"
+        },
+        "sha256_pixels": "adde0d4e0ff2339da1192721a35d1c9cbef360cbe65f327fd1a83f03792826b8",
+        "sha256_png": "aaa29a64c310354cf706cb129a1a3226e26be254496d8e7f121ac074ef6b5b16",
+        "mean": 0.5248842592592593,
+        "contrast": 0.1365850101553705,
+        "edge": 0.03661549707602339,
+        "entropy": 3.0580777051273986
+      },
+      {
+        "seed": 103,
+        "params": {
+          "size": 96,
+          "cell": 8,
+          "octaves": 4,
+          "persistence": 0.45,
+          "quantize": 4,
+          "interp": "smooth"
+        },
+        "sha256_pixels": "bb8a6315dde91287658ba5cb70ad38d60c8b1d16f430ad3dbef420f08d5e6a2f",
+        "sha256_png": "f64dd80bb0572008711d0ebeb8ad7f688828c22e8dd7c8ab17f7ace5ad5e3b6a",
+        "mean": 0.5025245949074074,
+        "contrast": 0.13406696272619725,
+        "edge": 0.03693713450292398,
+        "entropy": 3.045050829322042
+      },
+      {
+        "seed": 104,
+        "params": {
+          "size": 96,
+          "cell": 8,
+          "octaves": 4,
+          "persistence": 0.45,
+          "quantize": 4,
+          "interp": "smooth"
+        },
+        "sha256_pixels": "900e530c03cef42ff4fa6fd45a81b012e3fcc7dbc07eb686db60fb07ba1eaf35",
+        "sha256_png": "98862bca1a4f2b825528350db772d7adbfd7912d1be283635b5efe3757b2a967",
+        "mean": 0.4804904513888889,
+        "contrast": 0.13800192692125116,
+        "edge": 0.0372733918128655,
+        "entropy": 3.070150233967174
+      },
+      {
+        "seed": 105,
+        "params": {
+          "size": 96,
+          "cell": 8,
+          "octaves": 4,
+          "persistence": 0.45,
+          "quantize": 4,
+          "interp": "smooth"
+        },
+        "sha256_pixels": "12cae32b4d5ecda617798ea5a8cde2c097a3cdc585138f3723526eff573e811b",
+        "sha256_png": "aa995ca71d7e2fa34cc6dc8ebc7f0ba548ae07e25010b688f615ba21952bb32e",
+        "mean": 0.5123625578703704,
+        "contrast": 0.1429966940477323,
+        "edge": 0.038172514619883045,
+        "entropy": 3.1310078767201213
+      }
+    ]
+  }
+}
