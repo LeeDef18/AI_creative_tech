@@ -18,5 +18,8 @@ python3 -m venv .venv
 .venv/bin/python src/lab01_experiment.py --variant 23 --seed 101 --n 5 --out artifacts/repeat_v23
 ```
 
-Сравнивайте метрики и контрольные суммы пикселей с artifacts/v23/results.json. Даты и сведения о среде могут отличаться. Индивидуальные измерения сохранены в series_runs.json. demo_journal содержит преподавательский пример варианта 1
+Результаты исходного эксперимента для сравнения метрик и контрольных сумм пикселей сохранены в [results.json](artifacts/v23/results.json). Индивидуальные измерения находятся в [series_runs.json](artifacts/v23/series_runs.json). Папка `demo_journal/` содержит пример преподавателя для варианта 1.
 
+## Рабочая область Engee
+
+[Материалы части Б](engee/README.md): скрипт, сведения о среде и наблюдения при очистке переменных и перезапуске ядра.

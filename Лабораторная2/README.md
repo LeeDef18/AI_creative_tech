@@ -19,14 +19,14 @@
 
 ## Повторение проверки
 
-Python 3.10+, стандартная библиотека. Из папки Лабораторная2:
+Python 3.10+, стандартная библиотека. Команды из папки `Лабораторная2/`:
 
 ```bash
 python3 -m venv .venv
 .venv/bin/python tools/verify_lab02.py
 ```
 
-Для повторного аудита в отдельную папку:
+Повторный аудит с сохранением результатов в отдельную папку:
 
 ```bash
 .venv/bin/python src/lab02_make_variant.py --variant 23 --out artifacts/repeat_v23
@@ -37,6 +37,5 @@ python3 -m venv .venv
 `audit_original/` хранит исходный вывод и незаполненную автоматическую заготовку. Окончательные документы перечислены выше. `model_card_generated.md` — исходная заготовка карточки, `model_card.md` — дополненная версия. Файлы `*_bad*` — намеренно ошибочный пример проверки реестра. `audit_publication_test/` относится к дополнительному сценарию.
 
 [Копия паспорта ЛР 1](inputs/lr01_passport.json) хранится локально, её SHA-256 записан в [environment.json](reports/environment.json).
-
 
 [Итоговая проверка артефактов](reports/validation.log).
