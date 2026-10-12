@@ -1,0 +1,74 @@
+date = "2026-10-12"
+bins = 32
+library_sha256 = "acfe83734ecc33366859afeac20ae17db1f7c0100e8e1a8da0bb1c9ca7f7bbcc"
+julia_version = "1.12.4"
+png_note = "PNG: 8 bits per channel; metrics computed before export on Float64 arrays"
+script_sha256 = "2eb3c2edd4397408f5be1627654b06cff492b8d63a7b99a489c271d1aeed5d78"
+variant = 23
+hypothesis_sha256 = "6af8c48224a5eec5993f817ddebb5ccae8fbbb6755e73a2843fcaf8688b0ce5d"
+seeds = [101, 102, 103, 104, 105]
+engee_version = "26.9.2-H4"
+factor = "gamma=0.5"
+
+[metrics.mean]
+after_mean = 0.6842232502411522
+base_s = 0.0003215286657631835
+base_mean = 0.4719571625096193
+ratio = 660.1778016516695
+statistical = true
+practical = true
+delta = 0.21226608773153288
+relative_percent = 44.97571063501055
+
+[metrics.contrast]
+after_mean = 0.061609302107775855
+base_s = 0.0006102738684244249
+base_mean = 0.08234589434583521
+ratio = 33.97915806488007
+statistical = true
+practical = true
+delta = -0.020736592238059355
+relative_percent = 25.182302533469475
+
+[metrics.entropy]
+after_mean = 2.9879444359587923
+base_s = 0.012485846878988393
+base_mean = 3.4251461555340503
+ratio = 35.01578417648192
+statistical = true
+practical = true
+delta = -0.437201719575258
+relative_percent = 12.764469010143285
+
+[scene]
+lo = 0.15
+hi = 0.85
+checker = 0
+noise = 0.08
+n = 128
+
+[image]
+height = 128
+max = 1.0
+min = 0.0
+bytes = 393216
+width = 128
+type = "RGB{Float64}"
+
+[criteria]
+luma_atol = 1.0e-7
+relative_percent = 5.0
+psnr_db = 30.0
+
+[reproducibility]
+sha_repeat = "224b1f6040695ed13abf1c4d1ba34447801ee417232b576388cd05f9103a29a6"
+luma_maxdiff = 1.1837760882649206e-8
+equal = true
+sha_first = "224b1f6040695ed13abf1c4d1ba34447801ee417232b576388cd05f9103a29a6"
+
+[psnr]
+per_seed = [13.412240172691606, 13.421096554669521, 13.421133595124529, 13.421188782753937, 13.421312926417803]
+max = 13.421312926417803
+min = 13.412240172691606
+below_30db = true
+mean = 13.419394406331481

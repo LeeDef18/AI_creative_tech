@@ -1,0 +1,4 @@
+metric,relative_percent,above_1pct,above_5pct,above_10pct
+mean,44.97571063501055,true,true,true
+contrast,25.182302533469475,true,true,true
+entropy,12.764469010143285,true,true,true

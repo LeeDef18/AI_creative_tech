@@ -1,0 +1,47 @@
+Variant 23; Engee 26.9.2-H4; Julia 1.12.4
+Started: 2026-10-12T20:22:10.515
+Output: /user/AI_creative_tech/LR03/artifacts/v23_20261012_202210_510
+Criteria: relative change > 5%; PSNR < 30 dB; luma maxdiff <= 1e-7
+Julia Version 1.12.4
+Commit 01a2eadb047 (2026-01-06 16:56 UTC)
+Build Info:
+  Official https://julialang.org release
+Platform Info:
+  OS: Linux (x86_64-linux-gnu)
+  CPU: 112 × Intel(R) Xeon(R) Platinum 8180 CPU @ 2.50GHz
+  WORD_SIZE: 64
+  LLVM: libLLVM-18.1.7 (ORCJIT, skylake-avx512)
+  GC: Built with stock GC
+Threads: 5 default, 3 interactive, 5 GC (on 112 virtual cores)
+Environment:
+  JULIA_LSP_STORE_PATH = /user/lsp_store
+  JULIA_CPU_TARGET = generic;sandybridge,-xsaveopt,clone_all;haswell,-rdrnd,base(1)
+  JULIA_LSP_PORT = 3751
+  JULIA_NUM_PRECOMPILE_TASKS = 8
+  JULIA_PKG_PRECOMPILE_AUTO = 0
+  JULIA_DEPOT_PATH = /user/.packages:/opt/depot/core:/opt/depot/mtl:/opt/depot/demos:/opt/depot/stdlib
+  JULIA_PATH = /usr/local/julia
+  LD_LIBRARY_PATH = /usr/local/nvidia/lib:/usr/local/nvidia/lib64
+  JULIA_PROJECT = /user/.project/
+  JULIA_DA_STORE_PATH = /user/da_store
+  JULIA_PKG_SERVER = http://pkgserver.pkgserver.svc.cluster.local
+  JULIA_NUM_THREADS = 7,1
+  JULIA_DA_PORT = 3752
+  JULIA_DEBUG = BackendLib,AbstractAPI
+describe_image = (size = (128, 128), eltype = "RGB{Float64}", min = 0.0, max = 1.0, bytes = 393216)
+luma maxdiff = 1.1837760882649206e-8
+sha256 first = 224b1f6040695ed13abf1c4d1ba34447801ee417232b576388cd05f9103a29a6
+sha256 repeat = 224b1f6040695ed13abf1c4d1ba34447801ee417232b576388cd05f9103a29a6
+array equality = true
+seed=101 base=(mean = 0.47141367702985115, contrast = 0.08173030240395937, entropy = 3.413830047507459) after=(mean = 0.6838701211559659, contrast = 0.061119247546182455, entropy = 2.9805315473056955) MSE=0.045580174418358904 PSNR=13.412240172691606
+seed=102 base=(mean = 0.4719701192317976, contrast = 0.08325523716390515, entropy = 3.4442750773915516) after=(mean = 0.6841703022876233, contrast = 0.06230051041912272, entropy = 3.006008562561554) MSE=0.04548731942418466 PSNR=13.421096554669521
+seed=103 base=(mean = 0.47206214564239934, contrast = 0.08258558176228577, entropy = 3.4310767542133886) after=(mean = 0.6842812809810863, contrast = 0.061818341837868274, entropy = 2.991674585076461) MSE=0.04548693146995228 PSNR=13.421133595124529
+seed=104 base=(mean = 0.4720793472690156, contrast = 0.08228429798544175, entropy = 3.418236750250269) after=(mean = 0.6843103154695876, contrast = 0.0616357954579549, entropy = 2.983308158439141) MSE=0.04548635345202395 PSNR=13.421188782753937
+seed=105 base=(mean = 0.47226052337503266, contrast = 0.08187405241358402, entropy = 3.4183121483075842) after=(mean = 0.6844842313114972, contrast = 0.061172615277750926, entropy = 2.9781993264111124) MSE=0.045485053237054235 PSNR=13.421312926417803
+mean: base=0.4719571625096193 s=0.0003215286657631835 after=0.6842232502411522 delta=0.21226608773153288 ratio=660.1778016516695 change_percent=44.97571063501055 statistical=true practical=true
+contrast: base=0.08234589434583521 s=0.0006102738684244249 after=0.061609302107775855 delta=-0.020736592238059355 ratio=33.97915806488007 change_percent=25.182302533469475 statistical=true practical=true
+entropy: base=3.4251461555340503 s=0.012485846878988393 after=2.9879444359587923 delta=-0.437201719575258 ratio=35.01578417648192 change_percent=12.764469010143285 statistical=true practical=true
+variant_summary(23) = (variant = 23, ctx = 4, fac = 5, psnr = 13.419394406331481, rows = Any[(:mean, 0.4719571625096193, 0.0003215286657631835, 0.6842232502411522, 0.21226608773153288, 660.1778016516695, true), (:contrast, 0.08234589434583521, 0.0006102738684244249, 0.061609302107775855, -0.020736592238059355, 33.97915806488007, true), (:entropy, 3.4251461555340503, 0.012485846878988393, 2.9879444359587923, -0.437201719575258, 35.01578417648192, true)])
+PSNR mean/min/max = (13.419394406331481, 13.412240172691606, 13.421312926417803)
+Mean PSNR below 25/30/35 dB = Bool[1, 1, 1]
+RESULT: PASS; output files saved in /user/AI_creative_tech/LR03/artifacts/v23_20261012_202210_510
