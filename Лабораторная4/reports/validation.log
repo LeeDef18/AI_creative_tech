@@ -1,0 +1,3 @@
+VALIDATION: PASS
+Source and hypothesis hashes; five seeds; PSNR/MSE; summary statistics; practical thresholds; scene theory; reference demo; neighbor; PNG sizes; recorded reproducibility.
+Checks use saved artifacts; Julia computations were not rerun locally.

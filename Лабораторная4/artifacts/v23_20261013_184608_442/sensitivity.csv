@@ -1,0 +1,4 @@
+threshold_db,delta_psnr,classification
+0.5,2.075910315400396,useful
+1.0,2.075910315400396,useful
+2.0,2.075910315400396,useful

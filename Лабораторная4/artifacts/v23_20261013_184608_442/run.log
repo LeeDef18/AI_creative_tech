@@ -1,0 +1,47 @@
+Started: 2026-10-13T18:46:08.578
+Output: /user/AI_creative_tech/LR04/artifacts/v23_20261013_184608_442
+Julia Version 1.12.4
+Commit 01a2eadb047 (2026-01-06 16:56 UTC)
+Build Info:
+  Official https://julialang.org release
+Platform Info:
+  OS: Linux (x86_64-linux-gnu)
+  CPU: 112 × Intel(R) Xeon(R) Platinum 8180 CPU @ 2.50GHz
+  WORD_SIZE: 64
+  LLVM: libLLVM-18.1.7 (ORCJIT, skylake-avx512)
+  GC: Built with stock GC
+Threads: 5 default, 3 interactive, 5 GC (on 112 virtual cores)
+Environment:
+  JULIA_LSP_STORE_PATH = /user/lsp_store
+  JULIA_CPU_TARGET = generic;sandybridge,-xsaveopt,clone_all;haswell,-rdrnd,base(1)
+  JULIA_LSP_PORT = 3751
+  JULIA_NUM_PRECOMPILE_TASKS = 8
+  JULIA_PKG_PRECOMPILE_AUTO = 0
+  JULIA_DEPOT_PATH = /user/.packages:/opt/depot/core:/opt/depot/mtl:/opt/depot/demos:/opt/depot/stdlib
+  JULIA_PATH = /usr/local/julia
+  LD_LIBRARY_PATH = /usr/local/nvidia/lib:/usr/local/nvidia/lib64
+  JULIA_PROJECT = /user/.project/
+  JULIA_DA_STORE_PATH = /user/da_store
+  JULIA_PKG_SERVER = http://pkgserver.pkgserver.svc.cluster.local
+  JULIA_NUM_THREADS = 7,1
+  JULIA_DA_PORT = 3752
+  JULIA_DEBUG = BackendLib,AbstractAPI
+Variant 23; Engee 26.9.2-H4; Julia 1.12.4
+Criteria: abs(delta)>2s; practical delta PSNR >= +1 / <= -1 dB
+Scene params = (noise = 0.05, checker = 8, disc = 0.75, bg = (0.1, 0.4))
+Image size/type/bytes/range = ((128, 128), Float64, 131072, (0.0, 0.9244879510753206))
+Array SHA first/repeat = ("edf3c24a4353be4b5c23dddb0efeb1aa40c974dbeeaa41e393985a4bc37c1365", "edf3c24a4353be4b5c23dddb0efeb1aa40c974dbeeaa41e393985a4bc37c1365")
+Edge normalization maximum = 0.30977413747859966
+seed=101 scene PSNR=25.966810517251083 base=(psnr = 21.104851059980078, edge = 0.052818960548652864, contrast = 0.11437522867222777) after=(psnr = 23.264858005419015, edge = 0.030471971009491547, contrast = 0.07630729030104215)
+seed=102 scene PSNR=25.9619108662892 base=(psnr = 21.085411594321823, edge = 0.05202330913221899, contrast = 0.11340357275172594) after=(psnr = 23.231226706613526, edge = 0.030569022884685874, contrast = 0.07611991077898722)
+seed=103 scene PSNR=26.02391405440281 base=(psnr = 21.18246817532504, edge = 0.051410103434248164, contrast = 0.11206727394403124) after=(psnr = 23.217426936008078, edge = 0.02998353907146521, contrast = 0.07621549656898947)
+seed=104 scene PSNR=26.147209875603046 base=(psnr = 21.360137934874814, edge = 0.05248681899950779, contrast = 0.11432252232614679) after=(psnr = 23.321371719736778, edge = 0.030505373539806584, contrast = 0.07622925399703293)
+seed=105 scene PSNR=26.020750965944373 base=(psnr = 21.147510551104002, edge = 0.052361833643510436, contrast = 0.11356428137468003) after=(psnr = 23.22504752483035, edge = 0.030400884623932117, contrast = 0.07602454432191273)
+psnr: base=21.176075863121152 s=0.10957721841651342 after=23.25198617852155 delta=2.075910315400396 ratio=18.94472542193637 statistical=true
+edge: base=0.052220205151627654 s=0.0005349491644122447 after=0.030386158225876266 delta=-0.021834046925751388 ratio=40.81518091488324 statistical=true
+contrast: base=0.11354657581376235 s=0.0009351277899776111 after=0.0761792991935929 delta=-0.03736727662016945 ratio=39.95954031166596 statistical=true
+Scene PSNR mean/theory/difference = (26.024119255898096, 26.020599913279625, 0.0035193426184711996)
+Practical classification = useful; delta PSNR = 2.075910315400396
+Neighbor variant 11 (no checker) = (variant = 11, ctx = 2, fac = 5, iou = NaN, rows = Any[(:psnr, 20.458490050169996, 0.11314792116030932, 24.222248060018757, 3.763758009848761, 33.26404914250456, true), (:edge, 0.04061500149123737, 0.000256045673513805, 0.02050904174437316, -0.02010595974686421, 78.52489546471548, true), (:contrast, 0.11648282581706657, 0.000785915172937437, 0.08263155433167395, -0.03385127148539262, 43.07242390914796, true)])
+Demo match (atol=rtol=1e-9) = true
+RESULT: PASS; output saved in /user/AI_creative_tech/LR04/artifacts/v23_20261013_184608_442

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-13",
+  "status": "prepared_not_executed",
+  "variant": 23,
+  "sha256": {
+    "src/lab03_lib.jl": "cd1622643e7cfe7cc01bb7d8067e4802a76f6a76e9a6833ba4c09c84bb9fa62a",
+    "src/lab04_lib.jl": "094cecea2f55a0f53a652149a1a4025e98d87b3994b376be7028c4920cb0f8c2",
+    "engee/LR04_23.jl": "c20e14e9a35fe2341c86ccac7ba8516a1d6eb20a976cfe7cbe50d872a92645ef",
+    "reports/hypothesis.md": "0b415ec5b5cd1808dc0e8db93ecbe270b552455d9f32396187cba0c86d29bff8"
+  }
+}
