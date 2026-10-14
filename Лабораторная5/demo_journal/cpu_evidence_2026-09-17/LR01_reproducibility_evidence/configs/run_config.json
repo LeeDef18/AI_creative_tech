@@ -1,0 +1,11 @@
+{
+  "model_id": "stabilityai/sd-turbo",
+  "revision": "b261bac6fd2cf515557d5d0707481eafa0485ec2",
+  "prompt": "editorial poster concept for a local science festival, abstract geometric light installation, deep blue and amber palette, clean composition, no text, no logo, no people",
+  "seed": 20260917,
+  "num_inference_steps": 1,
+  "guidance_scale": 0.0,
+  "height": 512,
+  "width": 512,
+  "runs": 2
+}

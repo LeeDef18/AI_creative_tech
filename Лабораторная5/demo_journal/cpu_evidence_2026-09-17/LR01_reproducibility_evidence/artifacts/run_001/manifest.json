@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-09-17T09:54:02.033394+00:00",
+  "model_id": "stabilityai/sd-turbo",
+  "revision_requested": "b261bac6fd2cf515557d5d0707481eafa0485ec2",
+  "prompt": "editorial poster concept for a local science festival, abstract geometric light installation, deep blue and amber palette, clean composition, no text, no logo, no people",
+  "seed": 20260917,
+  "num_inference_steps": 1,
+  "guidance_scale": 0.0,
+  "height": 512,
+  "width": 512,
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "processor": "x86_64",
+  "packages": {
+    "torch": "2.7.1+cpu",
+    "torchvision": "0.22.1+cpu",
+    "diffusers": "0.40.0",
+    "transformers": "5.17.0",
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0",
+    "huggingface-hub": "1.31.0",
+    "Pillow": "12.3.0"
+  },
+  "deterministic_algorithms": true,
+  "torch_num_threads": 1,
+  "model_load_seconds_measured": 164.38243181100006,
+  "hf_home": "/workspace/scratch/ff8ea35e70da/lr01_run/cache/huggingface",
+  "run": 1,
+  "run_name": "run_001",
+  "generation_seconds_measured": 93.72523078900122,
+  "artifact": "artifacts/run_001/result.png",
+  "artifact_size_bytes": 579958,
+  "image_size_observed": [
+    512,
+    512
+  ],
+  "image_mode_observed": "RGB",
+  "sha256": "c1e668a658398f122335ec6ec7e019f52429a9b4b311dd7c678de2e507923723"
+}

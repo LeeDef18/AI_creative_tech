@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-14",
+  "variant": 23,
+  "seed": 1023,
+  "condition": "file_format",
+  "status": "prepared_not_executed",
+  "source_sha256": {
+    "src/lab05_lib.py": "4eb176506585ffcda1702605a767309fb451808229c3622f80ce882b7fa2ce1a",
+    "src/lab05_demo.py": "53b3b13f19e6754bda1cde58ef09f1e45b1595d1c4dab2a9b02bd4d99d731ce4",
+    "tools/run_lab05.py": "7d03cc3c428554e34037a34851860d9914eeaf16eb6d8e31da83da053095fcab",
+    "reports/hypothesis.md": "56eef2769777e08aaca6e7f9ce7e5dac25cdd6070a729ee09597f640a42a12a4",
+    "colab/LR05_23.ipynb": "c1d2de4afb923215d1b418c4762952b3148e1b605de5cabd8e530a0c9ee45c21"
+  }
+}

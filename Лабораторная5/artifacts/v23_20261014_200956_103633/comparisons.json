@@ -1,0 +1,62 @@
+[
+  {
+    "comparison": "PNG_vs_JPEG90",
+    "sha_a_png": "c580cc8cfefc1ab2d83296a363576f16f7f4758e8b2323f334cb01570a4bc11e",
+    "sha_b_png": "2f023f41bc300045f548cae0e45b97f2bd783030ad07a961e81fb1e2cf37f0f2",
+    "pixel_equal": false,
+    "max_diff": 44,
+    "mse": 20.09080632527669,
+    "psnr": 35.10082993776651,
+    "verdict": "different"
+  },
+  {
+    "comparison": "fresh_generator_repeat",
+    "sha_a_png": "c580cc8cfefc1ab2d83296a363576f16f7f4758e8b2323f334cb01570a4bc11e",
+    "sha_b_png": "c580cc8cfefc1ab2d83296a363576f16f7f4758e8b2323f334cb01570a4bc11e",
+    "pixel_equal": true,
+    "max_diff": 0,
+    "mse": 0.0,
+    "psnr": "Infinity",
+    "verdict": "identical"
+  },
+  {
+    "comparison": "shared_first_vs_baseline",
+    "sha_a_png": "c580cc8cfefc1ab2d83296a363576f16f7f4758e8b2323f334cb01570a4bc11e",
+    "sha_b_png": "c580cc8cfefc1ab2d83296a363576f16f7f4758e8b2323f334cb01570a4bc11e",
+    "pixel_equal": true,
+    "max_diff": 0,
+    "mse": 0.0,
+    "psnr": "Infinity",
+    "verdict": "identical"
+  },
+  {
+    "comparison": "shared_generator_two_calls",
+    "sha_a_png": "c580cc8cfefc1ab2d83296a363576f16f7f4758e8b2323f334cb01570a4bc11e",
+    "sha_b_png": "bd00b7de04cf4d689b5a4cfe079f24623526240d9f4149b60273b45b131f325d",
+    "pixel_equal": false,
+    "max_diff": 200,
+    "mse": 2371.114702860514,
+    "psnr": 14.381277973517793,
+    "verdict": "different"
+  },
+  {
+    "comparison": "fresh_generator_restores_baseline",
+    "sha_a_png": "c580cc8cfefc1ab2d83296a363576f16f7f4758e8b2323f334cb01570a4bc11e",
+    "sha_b_png": "c580cc8cfefc1ab2d83296a363576f16f7f4758e8b2323f334cb01570a4bc11e",
+    "pixel_equal": true,
+    "max_diff": 0,
+    "mse": 0.0,
+    "psnr": "Infinity",
+    "verdict": "identical"
+  },
+  {
+    "comparison": "PNG_compression0_roundtrip",
+    "sha_a_png": "c580cc8cfefc1ab2d83296a363576f16f7f4758e8b2323f334cb01570a4bc11e",
+    "sha_b_png": "c580cc8cfefc1ab2d83296a363576f16f7f4758e8b2323f334cb01570a4bc11e",
+    "pixel_equal": true,
+    "max_diff": 0,
+    "mse": 0.0,
+    "psnr": "Infinity",
+    "verdict": "identical"
+  }
+]

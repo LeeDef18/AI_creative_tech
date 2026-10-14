@@ -1,0 +1,10 @@
+{
+  "png_bytes": 511289,
+  "jpeg_bytes": 91865,
+  "jpeg_to_png_ratio": 0.1796733354326027,
+  "png_sha256": "c580cc8cfefc1ab2d83296a363576f16f7f4758e8b2323f334cb01570a4bc11e",
+  "jpeg_sha256": "8581625df78086a94b72a546933c0d316eaa5483349ef6ec74d5c1f5c64da957",
+  "jpeg_decoded_png_sha256": "2f023f41bc300045f548cae0e45b97f2bd783030ad07a961e81fb1e2cf37f0f2",
+  "jpeg_quality": 90,
+  "jpeg_subsampling": 2
+}

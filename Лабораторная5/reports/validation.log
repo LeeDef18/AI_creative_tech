@@ -1,0 +1,3 @@
+VALIDATION: PASS
+Artifact hashes; source copies; hypothesis; six image comparisons recomputed with Pillow; JPEG decoding; file sizes; manifests; generator states; library summary; executed notebook.
+Model inference was not rerun locally. Recorded comparisons confirm reproducibility only within the observed session.

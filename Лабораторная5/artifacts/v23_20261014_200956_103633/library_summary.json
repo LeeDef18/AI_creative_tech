@@ -1,0 +1,14 @@
+{
+  "variant": 23,
+  "ctx": 4,
+  "cond": "file_format",
+  "seed": 1023,
+  "sha_a": "c580cc8cfefc1ab2d83296a363576f16f7f4758e8b2323f334cb01570a4bc11e",
+  "sha_b": "2f023f41bc300045f548cae0e45b97f2bd783030ad07a961e81fb1e2cf37f0f2",
+  "pixel_equal": false,
+  "max_diff": 44,
+  "psnr": 35.10082993776651,
+  "verdict": "different",
+  "seconds": 0.28,
+  "psnr_fixed_noise": null
+}
