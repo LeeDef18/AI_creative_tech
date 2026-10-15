@@ -1,0 +1,11 @@
+{
+  "prepared_date": "2026-10-15",
+  "status": "PREPARED_NOT_RUN",
+  "source_sha256": {
+    "lab05_lib.py": "4eb176506585ffcda1702605a767309fb451808229c3622f80ce882b7fa2ce1a",
+    "lab06_lib.py": "c6d8473cf5a3000f4c27fbdef57916c2fbce347db272928d5c4729472f748bd8",
+    "tools/run_lab06.py": "dada0fa00854a182fa2b8df005447ad57bf69a1c25da27ef6d6c025fd3eb834c",
+    "reports/hypothesis.md": "d4323d63f4912afade78140bf8418615ae1af6ca11ef5b3904711c20fc969857",
+    "colab/LR06_23.ipynb": "8309d90db607d7fdbe21c218c49c25f927bd9a4af7a82041b9ecff369623f9fb"
+  }
+}

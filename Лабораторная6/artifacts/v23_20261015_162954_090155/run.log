@@ -1,0 +1,55 @@
+[transformers] `Siglip2ImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Siglip2ImageProcessor` instead.
+Variant 23; started: 2026-10-15T16:29:54
+Output: /content/LR06/artifacts/v23_20261015_162954_090155
+{
+  "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "gpu": "Tesla T4",
+  "cuda": "13.0",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "diffusers": "0.40.0",
+    "transformers": "5.18.0",
+    "numpy": "2.1.3",
+    "scipy": "1.16.3",
+    "Pillow": "11.3.0",
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0",
+    "huggingface-hub": "1.33.0"
+  },
+  "deterministic_algorithms": false,
+  "cudnn_benchmark": false,
+  "tf32": false
+}
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py:206: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+Settings A/B: ({'prompt': 'visual for an ecology lecture series, stylized forest canopy seen from above, layered green shapes, soft morning light, no text, no people', 'steps': 1, 'guidance': 0.0, 'size': 512}, {'prompt': 'visual for an ecology lecture series, stylized forest canopy seen from above, layered green shapes, soft morning light, no text, no people', 'steps': 1, 'guidance': 3.0, 'size': 512})
+variant=23 {'seed': 101, 'condition': 'A', 'clip': 34.61616039276123, 'edge': 0.04027313519880424, 'contrast': 0.1294336796588522, 'seconds': 0.277123620999987, 'cfg_active': False, 'image': 'A/seed_101.png', 'sha256': 'b8909a66262978ce4004e54c55a29af52eefc16a517dd4494e32394d49b5b32f'}
+variant=23 {'seed': 101, 'condition': 'B', 'clip': 29.196542501449585, 'edge': 0.07398840645020349, 'contrast': 0.2564414715390134, 'seconds': 0.34057915799996863, 'cfg_active': True, 'image': 'B/seed_101.png', 'sha256': '028a81fffcc87aaafac8cb4cc470ef704e0cafeb8dfeb7eae43022519e61bf2d'}
+variant=23 {'seed': 102, 'condition': 'A', 'clip': 33.03956389427185, 'edge': 0.03951217750955752, 'contrast': 0.11935819500417791, 'seconds': 0.27948004299992135, 'cfg_active': False, 'image': 'A/seed_102.png', 'sha256': '949750bfd52f4d6adf27abba1cde4984085bc0be291b28636d83ba443893e7ac'}
+variant=23 {'seed': 102, 'condition': 'B', 'clip': 33.36823582649231, 'edge': 0.0757107349589155, 'contrast': 0.25515016587177, 'seconds': 0.33925436000004083, 'cfg_active': True, 'image': 'B/seed_102.png', 'sha256': 'fd73ad5ae6e654c388f19f563c899a2639b2f5014451540e416dc965b9c9fd47'}
+variant=23 {'seed': 103, 'condition': 'A', 'clip': 32.05130994319916, 'edge': 0.04103535053540929, 'contrast': 0.12287104660785754, 'seconds': 0.2773173110000471, 'cfg_active': False, 'image': 'A/seed_103.png', 'sha256': 'c2a6cac8376e376270b6b362a2a247d7e0b01b794c27703019dcdc7282c2b356'}
+variant=23 {'seed': 103, 'condition': 'B', 'clip': 30.398425459861755, 'edge': 0.07633496438026126, 'contrast': 0.24572562294324904, 'seconds': 0.33945157499999823, 'cfg_active': True, 'image': 'B/seed_103.png', 'sha256': '661e3ab0f0d33ab35798db7f8ae8a75c1c80c27b5d70a599cca37f04583de5ac'}
+variant=23 {'seed': 104, 'condition': 'A', 'clip': 32.99857974052429, 'edge': 0.03972307846319243, 'contrast': 0.1268263907428747, 'seconds': 0.28511636400003226, 'cfg_active': False, 'image': 'A/seed_104.png', 'sha256': '643394ca408f606250b7a264d9650a53a8020fc2ae5390d429a57e621091fc95'}
+variant=23 {'seed': 104, 'condition': 'B', 'clip': 30.948710441589355, 'edge': 0.07393306883534444, 'contrast': 0.2623283392571573, 'seconds': 0.3394786839999142, 'cfg_active': True, 'image': 'B/seed_104.png', 'sha256': 'f168832e9fa9a650ba56b4f21aacfea8d91c907bbee45045f300c4bf6edcc905'}
+variant=23 {'seed': 105, 'condition': 'A', 'clip': 32.8308641910553, 'edge': 0.03617968934554658, 'contrast': 0.11357482669772205, 'seconds': 0.2910051520000252, 'cfg_active': False, 'image': 'A/seed_105.png', 'sha256': '83f325feeaaa12ba8e778fff20905cfb9f78e7dc02c7c29bd84128a197458a57'}
+variant=23 {'seed': 105, 'condition': 'B', 'clip': 31.32925033569336, 'edge': 0.06998347828346967, 'contrast': 0.2534943019119595, 'seconds': 0.3474131769999076, 'cfg_active': True, 'image': 'B/seed_105.png', 'sha256': '1732e7da6825ff165429dc607dfe54adfe3a9259f9c49cfcf4d21b23e05de4fd'}
+Summary: [{"metric": "clip", "A": 33.107295632362366, "s": 0.9333541284149645, "B": 31.048232913017273, "delta": -2.0590627193450928, "ratio": 2.2060894752153963, "statistical": true, "change_percent": -6.2193624698610535, "practical_limit": 1.0, "practical": "deterioration"}, {"metric": "edge", "A": 0.03934468621050201, "s": 0.0018647253531503486, "B": 0.07399013058163888, "delta": 0.03464544437113687, "ratio": 18.579381844412282, "statistical": true, "change_percent": 88.05622234671475, "practical_limit": 0.003934468621050201, "practical": "improvement"}, {"metric": "contrast", "A": 0.12241282774229688, "s": 0.006253457206852012, "B": 0.25462798030462985, "delta": 0.13221515256233296, "ratio": 21.142729243827354, "statistical": true, "change_percent": 108.00759609987273, "practical_limit": 0.012241282774229688, "practical": "improvement"}, {"metric": "seconds", "A": 0.28200849820000257, "s": 0.005976222839961952, "B": 0.3412353907999659, "delta": 0.05922689259996333, "ratio": 9.910422383168765, "statistical": true, "change_percent": 21.001811285119206, "practical_limit": 0.05640169964000052, "practical": "deterioration"}]
+Guidance control: {'seed': 101, 'brief': 4, 'cfg_active': {'0': False, '1': False, '3': True}, 'sha256': {'0': 'b8909a66262978ce4004e54c55a29af52eefc16a517dd4494e32394d49b5b32f', '1': 'b8909a66262978ce4004e54c55a29af52eefc16a517dd4494e32394d49b5b32f', '3': '028a81fffcc87aaafac8cb4cc470ef704e0cafeb8dfeb7eae43022519e61bf2d'}, 'equal_0_1': True, 'maxdiff_0_1': 0, 'psnr_0_1': inf, 'psnr_0_3': 12.490741739416029}
+variant=1 {'seed': 101, 'condition': 'A', 'clip': 30.30926287174225, 'edge': 0.047968852990238335, 'contrast': 0.15688247029165409, 'seconds': 0.27859732100000656, 'cfg_active': False, 'image': 'A/seed_101.png', 'sha256': '84db2534b3e66ea6f5ac17a7d3ba210bfb7653bcd738534372564a5b46b79b36'}
+variant=1 {'seed': 101, 'condition': 'B', 'clip': 28.555655479431152, 'edge': 0.1016138642827872, 'contrast': 0.27654371966694785, 'seconds': 0.5232074380000995, 'cfg_active': False, 'image': 'B/seed_101.png', 'sha256': '0b1b9d95bdeb4d98d3e5f6aaa32c6ea9e07921f8ae1faa3239e922eecac85343'}
+variant=1 {'seed': 102, 'condition': 'A', 'clip': 32.94239044189453, 'edge': 0.04712976365363871, 'contrast': 0.21912255152940358, 'seconds': 0.2814340899999479, 'cfg_active': False, 'image': 'A/seed_102.png', 'sha256': '0d0d796d3cf4ee23576600f4c520c79fe15e08b5858e6adb3dae68beaf3321b9'}
+variant=1 {'seed': 102, 'condition': 'B', 'clip': 28.18036377429962, 'edge': 0.0890483659606453, 'contrast': 0.27545657766582893, 'seconds': 0.5248424760000034, 'cfg_active': False, 'image': 'B/seed_102.png', 'sha256': '9e062097ac5995b2f758d0157ac081f851d801a71e46bf4fc9929d9d75fe02ee'}
+variant=1 {'seed': 103, 'condition': 'A', 'clip': 31.327080726623535, 'edge': 0.055380908620380406, 'contrast': 0.19766126169093032, 'seconds': 0.27951790800000254, 'cfg_active': False, 'image': 'A/seed_103.png', 'sha256': 'd0a3ff677d892b96cc1103be02b5f24084a943e9a2d3a00c6a6df13642771c69'}
+variant=1 {'seed': 103, 'condition': 'B', 'clip': 33.34337770938873, 'edge': 0.09803206625749017, 'contrast': 0.26865677788154174, 'seconds': 0.5227923670000791, 'cfg_active': False, 'image': 'B/seed_103.png', 'sha256': '036cbaf5634a6fae9c891834991f3f984047804f4fb0a1abdd2e983bd52982e8'}
+variant=1 {'seed': 104, 'condition': 'A', 'clip': 30.29041886329651, 'edge': 0.03952160927797911, 'contrast': 0.1967321886419229, 'seconds': 0.2818852399999514, 'cfg_active': False, 'image': 'A/seed_104.png', 'sha256': '82a2b32b5aa51daa43e5d08343825b8e9ac738460520494b7fe1433a312652bc'}
+variant=1 {'seed': 104, 'condition': 'B', 'clip': 31.67760968208313, 'edge': 0.09174220958772102, 'contrast': 0.3098288315498595, 'seconds': 0.5280685029999859, 'cfg_active': False, 'image': 'B/seed_104.png', 'sha256': '1e3816940b31684bbb49b7118a966f57762fb2d266c57b99442e518933612117'}
+variant=1 {'seed': 105, 'condition': 'A', 'clip': 29.120180010795593, 'edge': 0.038302947304787734, 'contrast': 0.1910355232920731, 'seconds': 0.28466161500000453, 'cfg_active': False, 'image': 'A/seed_105.png', 'sha256': '21897cc9e657705c01bd9d39641104cfadcc7215b2e3e8982c2302401b22ce58'}
+variant=1 {'seed': 105, 'condition': 'B', 'clip': 29.703009128570557, 'edge': 0.07944413806973254, 'contrast': 0.2588221195982498, 'seconds': 0.5230039069999748, 'cfg_active': False, 'image': 'B/seed_105.png', 'sha256': 'c8895ea2b0e382f68d681dd96fc82810bb47645092c9c81376febf80ce620002'}
+Summary: [{"metric": "clip", "A": 30.797866582870483, "s": 1.4309017437110398, "B": 30.29200315475464, "delta": -0.5058634281158447, "ratio": 0.35352771798564536, "statistical": false, "change_percent": -1.6425275002561435, "practical_limit": 1.0, "practical": "neutral"}, {"metric": "edge", "A": 0.04566081636940486, "s": 0.006960480109480653, "B": 0.09197612883167525, "delta": 0.046315312462270386, "ratio": 6.654039913020618, "statistical": true, "change_percent": 101.43338675237544, "practical_limit": 0.004566081636940486, "practical": "improvement"}, {"metric": "contrast", "A": 0.1922867990891968, "s": 0.022493533150052054, "B": 0.27786160527248555, "delta": 0.08557480618328875, "ratio": 3.8044181682098577, "statistical": true, "change_percent": 44.503734311783326, "practical_limit": 0.01922867990891968, "practical": "improvement"}, {"metric": "seconds", "A": 0.28121923479998256, "s": 0.0023509919172381185, "B": 0.5243829382000286, "delta": 0.243163703400046, "ratio": 103.43025920978415, "statistical": true, "change_percent": 86.46766412439618, "practical_limit": 0.05624384695999651, "practical": "deterioration"}]
+Guidance control: {'seed': 101, 'brief': 1, 'cfg_active': {'0': False, '1': False, '3': True}, 'sha256': {'0': '84db2534b3e66ea6f5ac17a7d3ba210bfb7653bcd738534372564a5b46b79b36', '1': '84db2534b3e66ea6f5ac17a7d3ba210bfb7653bcd738534372564a5b46b79b36', '3': 'b961e528cd31aa9da0ce4a7aeb68cbca550ddd3f993f5cd301260ed739e8c015'}, 'equal_0_1': True, 'maxdiff_0_1': 0, 'psnr_0_1': inf, 'psnr_0_3': 11.605078740312596}
+RESULT: PASS; output saved in /content/LR06/artifacts/v23_20261015_162954_090155

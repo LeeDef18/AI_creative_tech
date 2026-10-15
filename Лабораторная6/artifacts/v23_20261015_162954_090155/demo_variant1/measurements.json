@@ -1,0 +1,112 @@
+[
+  {
+    "seed": 101,
+    "condition": "A",
+    "clip": 30.30926287174225,
+    "edge": 0.047968852990238335,
+    "contrast": 0.15688247029165409,
+    "seconds": 0.27859732100000656,
+    "cfg_active": false,
+    "image": "A/seed_101.png",
+    "sha256": "84db2534b3e66ea6f5ac17a7d3ba210bfb7653bcd738534372564a5b46b79b36"
+  },
+  {
+    "seed": 101,
+    "condition": "B",
+    "clip": 28.555655479431152,
+    "edge": 0.1016138642827872,
+    "contrast": 0.27654371966694785,
+    "seconds": 0.5232074380000995,
+    "cfg_active": false,
+    "image": "B/seed_101.png",
+    "sha256": "0b1b9d95bdeb4d98d3e5f6aaa32c6ea9e07921f8ae1faa3239e922eecac85343"
+  },
+  {
+    "seed": 102,
+    "condition": "A",
+    "clip": 32.94239044189453,
+    "edge": 0.04712976365363871,
+    "contrast": 0.21912255152940358,
+    "seconds": 0.2814340899999479,
+    "cfg_active": false,
+    "image": "A/seed_102.png",
+    "sha256": "0d0d796d3cf4ee23576600f4c520c79fe15e08b5858e6adb3dae68beaf3321b9"
+  },
+  {
+    "seed": 102,
+    "condition": "B",
+    "clip": 28.18036377429962,
+    "edge": 0.0890483659606453,
+    "contrast": 0.27545657766582893,
+    "seconds": 0.5248424760000034,
+    "cfg_active": false,
+    "image": "B/seed_102.png",
+    "sha256": "9e062097ac5995b2f758d0157ac081f851d801a71e46bf4fc9929d9d75fe02ee"
+  },
+  {
+    "seed": 103,
+    "condition": "A",
+    "clip": 31.327080726623535,
+    "edge": 0.055380908620380406,
+    "contrast": 0.19766126169093032,
+    "seconds": 0.27951790800000254,
+    "cfg_active": false,
+    "image": "A/seed_103.png",
+    "sha256": "d0a3ff677d892b96cc1103be02b5f24084a943e9a2d3a00c6a6df13642771c69"
+  },
+  {
+    "seed": 103,
+    "condition": "B",
+    "clip": 33.34337770938873,
+    "edge": 0.09803206625749017,
+    "contrast": 0.26865677788154174,
+    "seconds": 0.5227923670000791,
+    "cfg_active": false,
+    "image": "B/seed_103.png",
+    "sha256": "036cbaf5634a6fae9c891834991f3f984047804f4fb0a1abdd2e983bd52982e8"
+  },
+  {
+    "seed": 104,
+    "condition": "A",
+    "clip": 30.29041886329651,
+    "edge": 0.03952160927797911,
+    "contrast": 0.1967321886419229,
+    "seconds": 0.2818852399999514,
+    "cfg_active": false,
+    "image": "A/seed_104.png",
+    "sha256": "82a2b32b5aa51daa43e5d08343825b8e9ac738460520494b7fe1433a312652bc"
+  },
+  {
+    "seed": 104,
+    "condition": "B",
+    "clip": 31.67760968208313,
+    "edge": 0.09174220958772102,
+    "contrast": 0.3098288315498595,
+    "seconds": 0.5280685029999859,
+    "cfg_active": false,
+    "image": "B/seed_104.png",
+    "sha256": "1e3816940b31684bbb49b7118a966f57762fb2d266c57b99442e518933612117"
+  },
+  {
+    "seed": 105,
+    "condition": "A",
+    "clip": 29.120180010795593,
+    "edge": 0.038302947304787734,
+    "contrast": 0.1910355232920731,
+    "seconds": 0.28466161500000453,
+    "cfg_active": false,
+    "image": "A/seed_105.png",
+    "sha256": "21897cc9e657705c01bd9d39641104cfadcc7215b2e3e8982c2302401b22ce58"
+  },
+  {
+    "seed": 105,
+    "condition": "B",
+    "clip": 29.703009128570557,
+    "edge": 0.07944413806973254,
+    "contrast": 0.2588221195982498,
+    "seconds": 0.5230039069999748,
+    "cfg_active": false,
+    "image": "B/seed_105.png",
+    "sha256": "c8895ea2b0e382f68d681dd96fc82810bb47645092c9c81376febf80ce620002"
+  }
+]

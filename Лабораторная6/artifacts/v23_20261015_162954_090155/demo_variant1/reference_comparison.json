@@ -1,0 +1,38 @@
+[
+  {
+    "metric": "clip",
+    "reference_A": 30.796,
+    "reference_B": 30.292,
+    "actual_A": 30.797866582870483,
+    "actual_B": 30.29200315475464,
+    "difference_A": 0.0018665828704840237,
+    "difference_B": 3.1547546370802593e-06
+  },
+  {
+    "metric": "edge",
+    "reference_A": 0.0457,
+    "reference_B": 0.092,
+    "actual_A": 0.04566081636940486,
+    "actual_B": 0.09197612883167525,
+    "difference_A": -3.91836305951368e-05,
+    "difference_B": -2.3871168324751668e-05
+  },
+  {
+    "metric": "contrast",
+    "reference_A": 0.1923,
+    "reference_B": 0.2778,
+    "actual_A": 0.1922867990891968,
+    "actual_B": 0.27786160527248555,
+    "difference_A": -1.3200910803201626e-05,
+    "difference_B": 6.160527248555425e-05
+  },
+  {
+    "metric": "seconds",
+    "reference_A": 0.2854,
+    "reference_B": 0.5266,
+    "actual_A": 0.28121923479998256,
+    "actual_B": 0.5243829382000286,
+    "difference_A": -0.004180765200017422,
+    "difference_B": -0.002217061799971387
+  }
+]

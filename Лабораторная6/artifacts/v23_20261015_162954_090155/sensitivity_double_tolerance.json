@@ -1,0 +1,50 @@
+[
+  {
+    "metric": "clip",
+    "A": 33.107295632362366,
+    "s": 0.9333541284149645,
+    "B": 31.048232913017273,
+    "delta": -2.0590627193450928,
+    "ratio": 2.2060894752153963,
+    "statistical": true,
+    "change_percent": -6.2193624698610535,
+    "practical_limit": 2.0,
+    "practical": "deterioration"
+  },
+  {
+    "metric": "edge",
+    "A": 0.03934468621050201,
+    "s": 0.0018647253531503486,
+    "B": 0.07399013058163888,
+    "delta": 0.03464544437113687,
+    "ratio": 18.579381844412282,
+    "statistical": true,
+    "change_percent": 88.05622234671475,
+    "practical_limit": 0.007868937242100402,
+    "practical": "improvement"
+  },
+  {
+    "metric": "contrast",
+    "A": 0.12241282774229688,
+    "s": 0.006253457206852012,
+    "B": 0.25462798030462985,
+    "delta": 0.13221515256233296,
+    "ratio": 21.142729243827354,
+    "statistical": true,
+    "change_percent": 108.00759609987273,
+    "practical_limit": 0.024482565548459376,
+    "practical": "improvement"
+  },
+  {
+    "metric": "seconds",
+    "A": 0.28200849820000257,
+    "s": 0.005976222839961952,
+    "B": 0.3412353907999659,
+    "delta": 0.05922689259996333,
+    "ratio": 9.910422383168765,
+    "statistical": true,
+    "change_percent": 21.001811285119206,
+    "practical_limit": 0.11280339928000103,
+    "practical": "neutral"
+  }
+]

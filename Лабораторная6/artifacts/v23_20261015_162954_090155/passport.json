@@ -1,0 +1,81 @@
+{
+  "variant": 23,
+  "started": "2026-10-15T16:29:54",
+  "completed": "2026-10-15T16:31:16",
+  "model_id": "stabilityai/sd-turbo",
+  "revision": "b261bac6fd2cf515557d5d0707481eafa0485ec2",
+  "clip_id": "openai/clip-vit-base-patch32",
+  "clip_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "factor": "guidance_0_to_3",
+  "settings_A": {
+    "prompt": "visual for an ecology lecture series, stylized forest canopy seen from above, layered green shapes, soft morning light, no text, no people",
+    "steps": 1,
+    "guidance": 0.0,
+    "size": 512
+  },
+  "settings_B": {
+    "prompt": "visual for an ecology lecture series, stylized forest canopy seen from above, layered green shapes, soft morning light, no text, no people",
+    "steps": 1,
+    "guidance": 3.0,
+    "size": 512
+  },
+  "clip_reference": "visual for an ecology lecture series, stylized forest canopy seen from above, layered green shapes, soft morning light, no text, no people",
+  "thresholds": {
+    "clip": 1.0,
+    "edge": 0.1,
+    "contrast": 0.1,
+    "seconds": 0.2
+  },
+  "generator_device": "cpu",
+  "dtype": "float16",
+  "scheduler": "EulerDiscreteScheduler",
+  "scheduler_config": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "scaled_linear",
+    "trained_betas": null,
+    "prediction_type": "epsilon",
+    "interpolation_type": "linear",
+    "use_karras_sigmas": false,
+    "use_exponential_sigmas": false,
+    "use_beta_sigmas": false,
+    "sigma_min": null,
+    "sigma_max": null,
+    "timestep_spacing": "trailing",
+    "timestep_type": "discrete",
+    "steps_offset": 1,
+    "rescale_betas_zero_snr": false,
+    "final_sigmas_type": "zero",
+    "_use_default_values": [
+      "use_beta_sigmas",
+      "rescale_betas_zero_snr",
+      "final_sigmas_type",
+      "use_exponential_sigmas"
+    ],
+    "_class_name": "EulerDiscreteScheduler",
+    "_diffusers_version": "0.24.0.dev0",
+    "clip_sample": false,
+    "sample_max_value": 1.0,
+    "set_alpha_to_one": false,
+    "skip_prk_steps": true
+  },
+  "load_pipe_seconds": 26.124283493999997,
+  "load_clip_seconds": 11.794006783999976,
+  "timing": "lab06_lib.measure; CUDA synchronized before measurement; both regimes warmed up",
+  "hypothesis_sha256": "d4323d63f4912afade78140bf8418615ae1af6ca11ef5b3904711c20fc969857",
+  "source_sha256": {
+    "sources/run_lab06.py": "dada0fa00854a182fa2b8df005447ad57bf69a1c25da27ef6d6c025fd3eb834c",
+    "sources/lab06_lib.py": "c6d8473cf5a3000f4c27fbdef57916c2fbce347db272928d5c4729472f748bd8",
+    "sources/lab05_lib.py": "4eb176506585ffcda1702605a767309fb451808229c3622f80ce882b7fa2ce1a"
+  },
+  "nonfinite_json": "null: PSNR for identical images is +infinity; ratios at s=0 require delta",
+  "visual_review": "pending"
+}

@@ -1,0 +1,14 @@
+{
+  "A": {
+    "prompt": "visual for an ecology lecture series, stylized forest canopy seen from above, layered green shapes, soft morning light, no text, no people",
+    "steps": 1,
+    "guidance": 0.0,
+    "size": 512
+  },
+  "B": {
+    "prompt": "visual for an ecology lecture series, stylized forest canopy seen from above, layered green shapes, soft morning light, no text, no people",
+    "steps": 1,
+    "guidance": 3.0,
+    "size": 512
+  }
+}

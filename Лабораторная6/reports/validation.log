@@ -1,0 +1,6 @@
+PASS: artifact hashes, original source files and preregistered hypothesis
+PASS: 20 images; Sobel edge energy and contrast independently recalculated
+PASS: summary statistics, CSV/JSON, library summary and doubled tolerances
+PASS: guidance 0/1 pixel equality, SHA-256 and guidance 0/3 PSNR
+CLIP scores and GPU timings checked for consistency; model inference not repeated.
+Notebook: executed, no error outputs, matching run

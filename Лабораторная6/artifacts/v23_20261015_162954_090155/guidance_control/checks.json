@@ -1,0 +1,18 @@
+{
+  "seed": 101,
+  "brief": 4,
+  "cfg_active": {
+    "0": false,
+    "1": false,
+    "3": true
+  },
+  "sha256": {
+    "0": "b8909a66262978ce4004e54c55a29af52eefc16a517dd4494e32394d49b5b32f",
+    "1": "b8909a66262978ce4004e54c55a29af52eefc16a517dd4494e32394d49b5b32f",
+    "3": "028a81fffcc87aaafac8cb4cc470ef704e0cafeb8dfeb7eae43022519e61bf2d"
+  },
+  "equal_0_1": true,
+  "maxdiff_0_1": 0,
+  "psnr_0_1": null,
+  "psnr_0_3": 12.490741739416029
+}
