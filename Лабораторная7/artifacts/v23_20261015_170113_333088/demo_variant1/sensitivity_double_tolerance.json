@@ -1,0 +1,54 @@
+[
+  {
+    "metric": "psnr",
+    "A": 26.129394912719725,
+    "s": 0.8517529034383061,
+    "B": 23.187636184692384,
+    "delta": -2.9417587280273416,
+    "ratio": 3.453770120597444,
+    "criterion_2s": true,
+    "statistical_applicable": true,
+    "change_percent": -11.258426526346007,
+    "practical_limit": 2.0,
+    "practical": "deterioration"
+  },
+  {
+    "metric": "gap",
+    "A": 0.041923904418945314,
+    "s": 0.009043757693771071,
+    "B": 0.0988494873046875,
+    "delta": 0.05692558288574218,
+    "ratio": 6.2944613083729495,
+    "criterion_2s": true,
+    "statistical_applicable": true,
+    "change_percent": 135.78311389341314,
+    "practical_limit": 0.2,
+    "practical": "neutral"
+  },
+  {
+    "metric": "params",
+    "A": 101.035,
+    "s": 0.0,
+    "B": 88.741,
+    "delta": -12.293999999999997,
+    "ratio": null,
+    "criterion_2s": true,
+    "statistical_applicable": false,
+    "change_percent": -12.168060573068736,
+    "practical_limit": null,
+    "practical": "changed"
+  },
+  {
+    "metric": "seconds",
+    "A": 1.8599564038000154,
+    "s": 0.043739942800239955,
+    "B": 1.8270367609999993,
+    "delta": -0.032919642800016025,
+    "ratio": 0.7526219901649124,
+    "criterion_2s": false,
+    "statistical_applicable": true,
+    "change_percent": -1.7699147535264264,
+    "practical_limit": 0.7439825615200062,
+    "practical": "neutral"
+  }
+]

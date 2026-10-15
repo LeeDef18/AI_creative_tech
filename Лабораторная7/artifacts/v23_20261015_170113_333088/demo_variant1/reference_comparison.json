@@ -1,0 +1,38 @@
+[
+  {
+    "metric": "psnr",
+    "reference_A": 26.0,
+    "reference_B": 23.2,
+    "actual_A": 26.129394912719725,
+    "actual_B": 23.187636184692384,
+    "difference_A": 0.12939491271972514,
+    "difference_B": -0.012363815307615766
+  },
+  {
+    "metric": "gap",
+    "reference_A": 0.04,
+    "reference_B": 0.101,
+    "actual_A": 0.041923904418945314,
+    "actual_B": 0.0988494873046875,
+    "difference_A": 0.001923904418945313,
+    "difference_B": -0.002150512695312509
+  },
+  {
+    "metric": "params",
+    "reference_A": 101.0,
+    "reference_B": 88.7,
+    "actual_A": 101.035,
+    "actual_B": 88.741,
+    "difference_A": 0.03499999999999659,
+    "difference_B": 0.04099999999999682
+  },
+  {
+    "metric": "seconds",
+    "reference_A": 2.27,
+    "reference_B": 2.1,
+    "actual_A": 1.8599564038000154,
+    "actual_B": 1.8270367609999993,
+    "difference_A": -0.41004359619998465,
+    "difference_B": -0.27296323900000075
+  }
+]

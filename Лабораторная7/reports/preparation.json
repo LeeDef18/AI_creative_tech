@@ -1,0 +1,10 @@
+{
+  "prepared_date": "2026-10-15",
+  "status": "PREPARED_NOT_RUN",
+  "source_sha256": {
+    "ЛР07_Построение_автокодировщика/src/lab07_lib.py": "d84b83a878f55e95289d76a788dc9fa84d3249d0d33aa719d9db8d6792fd2698",
+    "tools/run_lab07.py": "7ceed225355eeac7db2617cd1347832688aa35f83c17ea59956ebf7c2fb5cff3",
+    "reports/hypothesis.md": "cdc1aa2cb626c06ed66b2dc6dc0a23fa4ea7f06ab6cff20c864f84702751851b",
+    "colab/LR07_23.ipynb": "62ecb37bdbb73eecc2dceff414e5822a544931915074b0886a078a9cf1b5e1d9"
+  }
+}

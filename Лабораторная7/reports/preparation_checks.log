@@ -1,0 +1,6 @@
+PASS: syntax of Python files and all notebook code cells
+PASS: summary means, sample standard deviation, threshold boundary and direction
+PASS: equal parameter counts, undefined ratio at zero spread, doubled time tolerance
+PASS: original library settings for variant 23; only training noise differs
+PASS: local README links and preparation hashes
+GPU training has not been run locally.

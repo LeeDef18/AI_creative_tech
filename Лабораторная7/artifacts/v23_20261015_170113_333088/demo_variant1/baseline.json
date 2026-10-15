@@ -1,0 +1,6 @@
+{
+  "mean_image_psnr": 17.170730590820312,
+  "input_psnr": 100.0,
+  "eval_noise": 0.0,
+  "eval_noise_seed": 1234
+}

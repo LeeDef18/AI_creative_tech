@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "variant": 23,
+  "primary_trainings": 10,
+  "demo_trainings": 10,
+  "diagnostic_trainings": 30,
+  "warmup_trainings": 2
+}

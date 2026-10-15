@@ -1,0 +1,11 @@
+{
+  "kind": "disc",
+  "data_seed": 7,
+  "n_train": 4096,
+  "n_test": 1024,
+  "factors": 3,
+  "train_sha256": "7ef3ae24c7f80a181b5da2b4d22ff46d449c8f8c935d1c526886e7642560ab71",
+  "test_sha256": "679a9899d36521ca29acdc82bce47ac13be0308291a56cf49cbea1a1346c6255",
+  "train_factors_sha256": "e26a839db30a9966fa452fb6ce61f767bbcea946f37144fcf65259308fd10464",
+  "test_factors_sha256": "eda9ad592535caac0bbdd0d8bb7bf5a1113fb0327d1fd64fe6b5ff46c17ffde9"
+}

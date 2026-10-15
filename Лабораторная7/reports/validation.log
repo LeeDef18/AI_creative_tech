@@ -1,0 +1,4 @@
+PASS: v23_20261015_170113_333088 statistics, per-image PSNR, baseline, float32 reconstructions, diagnostic
+PASS: demo_variant1 statistics, per-image PSNR, baseline, float32 reconstructions, diagnostic
+PASS: artifact/source hashes, preregistered hypothesis, executed notebook and matching run
+Training was not repeated; checkpoint files were not loaded.

@@ -1,0 +1,11 @@
+{
+  "kind": "disc_color",
+  "data_seed": 7,
+  "n_train": 4096,
+  "n_test": 1024,
+  "factors": 4,
+  "train_sha256": "a746413ce6e748a89503d54bb0df4ffd7596eb73c53711b7f56e2144a0c43dd2",
+  "test_sha256": "f0c55209cb87d328409294bc3f65197d4babfe5ebd43fd1601400de9981525c9",
+  "train_factors_sha256": "f8a8fa8b5bfd11850c2501d1144d6c19dad5a715d11854054ab72fb909121f82",
+  "test_factors_sha256": "52d93b2528087b4369abbf2c9a2045e2b3e82f3daa16f2d3eea262ed6da68c12"
+}
