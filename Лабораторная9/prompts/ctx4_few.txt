@@ -1,0 +1,16 @@
+Ты помощник дизайнера. Преобразуй пять описаний заказчика (на русском языке) в пять JSON-объектов для генератора изображений. Не используй поиск в интернете и не добавляй ссылки. Ответ: один JSON-массив из пяти объектов в одном блоке кода, в том же порядке, что описания. Поля каждого объекта — ровно эти семь, значения на английском языке: subject — предмет, 3–12 слов; setting — место или фон, 2–12 слов; style — одно из: flat vector illustration, photorealistic, 3D render, watercolor, minimal geometric, macro photography, pencil sketch, isometric 3D render; lighting — освещение, 1–6 слов; palette — массив из 1–3 цветов ТОЛЬКО из списка: blue, amber, orange, teal, green, red, pink, purple, yellow, gray, black, white; composition — одно из: centered, rule of thirds, symmetrical, top-down, close-up, wide negative space; avoid — массив, элементы ТОЛЬКО из списка: people, text, logo, watermark, blur; перечисли ровно то, что заказчик прямо запрещает («без …»); если запретов нет — пустой массив.
+
+Два примера формата (для других описаний):
+Пример 1.
+Описание: Афиша джаз-фестиваля у моря: саксофон на закате, тёплые цвета, без текста.
+{"subject": "saxophone on a seaside pier", "setting": "sea coast at sunset", "style": "flat vector illustration", "lighting": "warm sunset light", "palette": ["orange", "purple"], "composition": "centered", "avoid": ["text"]}
+Пример 2.
+Описание: Открытка ко дню рождения: воздушные шары над полем, акварель, светлая палитра.
+{"subject": "colorful balloons floating above a field", "setting": "open green field, clear sky", "style": "watercolor", "lighting": "soft daylight", "palette": ["blue", "yellow", "pink"], "composition": "rule of thirds", "avoid": []}
+
+Описания заказчика:
+1. Визуал к лекциям по экологии: вид сверху на лес, слоистые зелёные формы, мягкий утренний свет.
+2. Слайд о загрязнении рек: чистая и мутная вода рядом, симметричная композиция, акварель, зелёного в палитре нет.
+3. Лекция о пчёлах и опылителях: пчела на цветке, макросъёмка, тёплый свет.
+4. Обложка курса о климате: тающий ледник, широкий план; палитра — ровно два цвета: синий и белый.
+5. Заставка о переработке отходов: аккуратные стопки цветных материалов, плоская иллюстрация, без текста.

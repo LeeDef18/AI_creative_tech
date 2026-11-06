@@ -1,0 +1,22 @@
+Started: 2026-11-06T16:29:48
+Output: /user/AI_creative_tech/LR09/artifacts/v23_20261106_162948_991958
+Environment: {'engee': '26.10.2-H3', 'julia': '1.12.6', 'python': '3.11.11 (main, Mar 17 2025, 21:02:09) [Clang 20.1.0 ]', 'platform': 'Linux-6.8.0-136-generic-x86_64-with-glibc2.35', 'device': 'cpu', 'threads': 4, 'packages': {'torch': '2.4.1+cpu', 'numpy': '1.26.4', 'Pillow': '11.3.0', 'scipy': '1.14.1', 'diffusers': '0.32.2', 'transformers': '4.57.6', 'huggingface-hub': '0.36.2', 'safetensors': '0.8.0'}}
+A: ecology lecture visual, forest
+B: ecology lecture visual, forest, masterpiece, best quality, highly detailed, 8k
+Loading SD Turbo and CLIP...
+Warmup: seed 0, A (excluded from measurements)
+{'condition': 'A', 'seed': 101, 'clip_target': 16.788890957832336, 'clip_subject': 24.888625741004944, 'edge': 0.03709615467660032, 'contrast': 0.1633991576378432, 'generation_seconds': 17.34746374655515}
+{'condition': 'A', 'seed': 102, 'clip_target': 18.136896193027496, 'clip_subject': 24.895253777503967, 'edge': 0.034320079432996746, 'contrast': 0.1492965630604646, 'generation_seconds': 20.734361603856087}
+{'condition': 'A', 'seed': 103, 'clip_target': 15.401910245418549, 'clip_subject': 22.4687859416008, 'edge': 0.035508371289188115, 'contrast': 0.126825364488846, 'generation_seconds': 20.081146828830242}
+{'condition': 'A', 'seed': 104, 'clip_target': 16.209782660007477, 'clip_subject': 24.18457418680191, 'edge': 0.044874678036546545, 'contrast': 0.1804031819567599, 'generation_seconds': 20.74370268266648}
+{'condition': 'A', 'seed': 105, 'clip_target': 15.874004364013672, 'clip_subject': 27.36775577068329, 'edge': 0.031042863402422932, 'contrast': 0.1478701222654067, 'generation_seconds': 20.92619425524026}
+{'condition': 'B', 'seed': 101, 'clip_target': 18.64667683839798, 'clip_subject': 22.799451649188995, 'edge': 0.03201691115196832, 'contrast': 0.16573298681336948, 'generation_seconds': 21.345920266583562}
+{'condition': 'B', 'seed': 102, 'clip_target': 18.362784385681152, 'clip_subject': 23.071272671222687, 'edge': 0.03048098394111403, 'contrast': 0.17015674676402495, 'generation_seconds': 19.08484546560794}
+{'condition': 'B', 'seed': 103, 'clip_target': 17.408742010593414, 'clip_subject': 22.66881763935089, 'edge': 0.028128787571289556, 'contrast': 0.1594379058842123, 'generation_seconds': 17.769341096282005}
+{'condition': 'B', 'seed': 104, 'clip_target': 17.220334708690643, 'clip_subject': 23.482877016067505, 'edge': 0.03576847359944094, 'contrast': 0.17251393356935535, 'generation_seconds': 18.158663782291114}
+{'condition': 'B', 'seed': 105, 'clip_target': 18.246129155158997, 'clip_subject': 22.77635782957077, 'edge': 0.02164958293530356, 'contrast': 0.1787402727109621, 'generation_seconds': 18.588294317945838}
+{'metric': 'clip_target', 'A': 16.482296884059906, 's': 1.0539470907638424, 'B': 17.976933419704437, 'delta': 1.4946365356445312, 'ratio': 1.4181324174075016, 'criterion_2s': False, 'tolerance': 1.0, 'practical': True, 'practical_double': False, 'direction': 'increase'}
+{'metric': 'clip_subject', 'A': 24.760999083518982, 's': 1.7618172480546601, 'B': 22.95975536108017, 'delta': -1.8012437224388123, 'ratio': 1.0223782996946396, 'criterion_2s': False, 'tolerance': 1.0, 'practical': True, 'practical_double': False, 'direction': 'decrease'}
+{'metric': 'edge', 'A': 0.036568429367550934, 's': 0.005147400818512574, 'B': 0.02960894783982328, 'delta': -0.006959481527727653, 'ratio': 1.3520380038597248, 'criterion_2s': False, 'tolerance': 0.0036568429367550936, 'practical': True, 'practical_double': False, 'direction': 'decrease'}
+{'metric': 'contrast', 'A': 0.1535588778818641, 's': 0.01989131577709589, 'B': 0.16931636914838485, 'delta': 0.015757491266520762, 'ratio': 0.7921794336332907, 'criterion_2s': False, 'tolerance': 0.01535588778818641, 'practical': True, 'practical_double': False, 'direction': 'increase'}
+RESULT: PASS; output saved in /user/AI_creative_tech/LR09/artifacts/v23_20261106_162948_991958

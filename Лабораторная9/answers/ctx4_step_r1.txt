@@ -1,0 +1,58 @@
+### Ключевые элементы описаний
+
+1. Экология: предмет — лес сверху, слоистые зелёные формы; стиль — минималистичная геометрическая иллюстрация; цвета — зелёный; освещение — мягкий утренний свет; композиция — вид сверху; запреты — нет.
+2. Загрязнение рек: предмет — чистая и мутная вода рядом; стиль — акварель; цвета — синий, серый, без зелёного; освещение — мягкий естественный свет; композиция — симметричная; запреты — нет.
+3. Пчёлы и опылители: предмет — пчела на цветке; стиль — макросъёмка; цвета — жёлтый, оранжевый; освещение — тёплое; композиция — крупный план; запреты — нет.
+4. Климат: предмет — тающий ледник; стиль — фотореализм; цвета — строго синий и белый; освещение — холодный естественный свет; композиция — широкий план; запреты — нет.
+5. Переработка отходов: предмет — аккуратные стопки цветных материалов; стиль — плоская векторная иллюстрация; цвета — синий, жёлтый, красный; освещение — равномерное; композиция — центрированная; запреты — текст.
+
+### Итоговый JSON-массив
+```json
+[
+  {
+    "subject": "Layered forest canopy seen from above",
+    "setting": "Dense green forest",
+    "style": "minimal geometric",
+    "lighting": "Soft morning light",
+    "palette": ["green"],
+    "composition": "top-down",
+    "avoid": []
+  },
+  {
+    "subject": "Clean and polluted river water side by side",
+    "setting": "Natural river landscape",
+    "style": "watercolor",
+    "lighting": "Soft natural light",
+    "palette": ["blue", "gray"],
+    "composition": "symmetrical",
+    "avoid": []
+  },
+  {
+    "subject": "Honeybee resting on a blooming flower",
+    "setting": "Flower garden",
+    "style": "macro photography",
+    "lighting": "Warm golden light",
+    "palette": ["yellow", "orange"],
+    "composition": "close-up",
+    "avoid": []
+  },
+  {
+    "subject": "Melting glacier with dramatic icy formations",
+    "setting": "Arctic mountain landscape",
+    "style": "photorealistic",
+    "lighting": "Cool natural daylight",
+    "palette": ["blue", "white"],
+    "composition": "wide negative space",
+    "avoid": []
+  },
+  {
+    "subject": "Neat stacks of colorful recyclable materials",
+    "setting": "Clean neutral background",
+    "style": "flat vector illustration",
+    "lighting": "Even soft lighting",
+    "palette": ["blue", "yellow", "red"],
+    "composition": "centered",
+    "avoid": ["text"]
+  }
+]
+```

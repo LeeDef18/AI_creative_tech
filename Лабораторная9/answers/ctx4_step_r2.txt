@@ -1,0 +1,58 @@
+### Ключевые элементы описаний
+
+1. Лес: предмет — лес сверху, слоистые зелёные формы; стиль — минималистичная геометрия; цвета — зелёный; освещение — мягкий утренний свет; ограничения — нет.
+2. Загрязнение рек: предмет — чистая и мутная вода рядом; стиль — акварель; цвета — синий, серый (без зелёного); композиция — симметричная; ограничения — нет.
+3. Пчёлы и опылители: предмет — пчела на цветке; стиль — макросъёмка; цвета — тёплые природные оттенки; освещение — тёплое; ограничения — нет.
+4. Климат: предмет — тающий ледник; стиль — фотореализм; цвета — ровно синий и белый; композиция — широкий план; ограничения — нет.
+5. Переработка отходов: предмет — аккуратные стопки цветных материалов; стиль — плоская векторная иллюстрация; цвета — синий, оранжевый, зелёный; освещение — мягкое равномерное; ограничения — без текста.
+
+### Итоговый JSON-массив
+```json
+[
+  {
+    "subject": "Layered forest canopy with organic green shapes",
+    "setting": "Dense forest viewed from above",
+    "style": "minimal geometric",
+    "lighting": "Soft morning light",
+    "palette": ["green"],
+    "composition": "top-down",
+    "avoid": []
+  },
+  {
+    "subject": "Clean water beside polluted murky river water",
+    "setting": "River divided into two contrasting halves",
+    "style": "watercolor",
+    "lighting": "Soft natural daylight",
+    "palette": ["blue", "gray"],
+    "composition": "symmetrical",
+    "avoid": []
+  },
+  {
+    "subject": "Honeybee collecting nectar from a flower",
+    "setting": "Flower garden with natural foliage",
+    "style": "macro photography",
+    "lighting": "Warm golden light",
+    "palette": ["amber", "yellow", "green"],
+    "composition": "close-up",
+    "avoid": []
+  },
+  {
+    "subject": "Melting glacier with visible ice formations",
+    "setting": "Remote polar landscape",
+    "style": "photorealistic",
+    "lighting": "Cold natural daylight",
+    "palette": ["blue", "white"],
+    "composition": "wide negative space",
+    "avoid": []
+  },
+  {
+    "subject": "Neatly stacked colorful recyclable materials",
+    "setting": "Clean modern recycling station",
+    "style": "flat vector illustration",
+    "lighting": "Soft even lighting",
+    "palette": ["blue", "orange", "green"],
+    "composition": "centered",
+    "avoid": ["text"]
+  }
+]
+```

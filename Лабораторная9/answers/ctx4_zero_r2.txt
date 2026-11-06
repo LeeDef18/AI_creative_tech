@@ -1,0 +1,47 @@
+[
+  {
+    "subject": "Layered green forest canopy with organic foliage shapes",
+    "setting": "Aerial view of a dense forest",
+    "style": "minimal geometric",
+    "lighting": "Soft morning light",
+    "palette": ["green", "teal"],
+    "composition": "top-down",
+    "avoid": []
+  },
+  {
+    "subject": "Adjacent clean water and murky polluted river water",
+    "setting": "River divided into two contrasting halves",
+    "style": "watercolor",
+    "lighting": "Soft natural daylight",
+    "palette": ["blue", "amber"],
+    "composition": "symmetrical",
+    "avoid": []
+  },
+  {
+    "subject": "Honeybee resting on a blooming flower",
+    "setting": "Flower petals and natural garden background",
+    "style": "macro photography",
+    "lighting": "Warm natural light",
+    "palette": ["yellow", "orange", "green"],
+    "composition": "close-up",
+    "avoid": []
+  },
+  {
+    "subject": "Melting glacier with dramatic ice formations",
+    "setting": "Vast polar landscape",
+    "style": "photorealistic",
+    "lighting": "Cool diffused daylight",
+    "palette": ["blue", "white"],
+    "composition": "wide negative space",
+    "avoid": []
+  },
+  {
+    "subject": "Neat stacks of colorful recyclable materials",
+    "setting": "Clean minimal studio background",
+    "style": "flat vector illustration",
+    "lighting": "Even soft lighting",
+    "palette": ["orange", "green", "blue"],
+    "composition": "centered",
+    "avoid": ["text"]
+  }
+]

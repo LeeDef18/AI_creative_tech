@@ -1,0 +1,5 @@
+PASS: 22 artifact hashes; nine answer hashes; DOCX archive; README links.
+PASS: report rendered to seven pages; comparison sheet visually checked.
+Part 1 summary means and sample standard deviations independently checked against saved measurements.
+Part 2 scores calculated by score_answers.py using teacher lab09_llm.py; nine answers present.
+No new model generation was performed during report preparation.

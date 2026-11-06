@@ -1,0 +1,54 @@
+[
+  {
+    "metric": "clip_target",
+    "A": 16.482296884059906,
+    "s": 1.0539470907638424,
+    "B": 17.976933419704437,
+    "delta": 1.4946365356445312,
+    "ratio": 1.4181324174075016,
+    "criterion_2s": false,
+    "tolerance": 1.0,
+    "practical": true,
+    "practical_double": false,
+    "direction": "increase"
+  },
+  {
+    "metric": "clip_subject",
+    "A": 24.760999083518982,
+    "s": 1.7618172480546601,
+    "B": 22.95975536108017,
+    "delta": -1.8012437224388123,
+    "ratio": 1.0223782996946396,
+    "criterion_2s": false,
+    "tolerance": 1.0,
+    "practical": true,
+    "practical_double": false,
+    "direction": "decrease"
+  },
+  {
+    "metric": "edge",
+    "A": 0.036568429367550934,
+    "s": 0.005147400818512574,
+    "B": 0.02960894783982328,
+    "delta": -0.006959481527727653,
+    "ratio": 1.3520380038597248,
+    "criterion_2s": false,
+    "tolerance": 0.0036568429367550936,
+    "practical": true,
+    "practical_double": false,
+    "direction": "decrease"
+  },
+  {
+    "metric": "contrast",
+    "A": 0.1535588778818641,
+    "s": 0.01989131577709589,
+    "B": 0.16931636914838485,
+    "delta": 0.015757491266520762,
+    "ratio": 0.7921794336332907,
+    "criterion_2s": false,
+    "tolerance": 0.01535588778818641,
+    "practical": true,
+    "practical_double": false,
+    "direction": "increase"
+  }
+]

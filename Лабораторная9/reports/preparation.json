@@ -1,0 +1,18 @@
+{
+  "prepared_at": "2026-11-06T19:08:07",
+  "status": "prepared_not_run",
+  "variant": 23,
+  "context": 4,
+  "factor": 5,
+  "sha256": {
+    "src/demo9_llm.py": "0dd037fa4f43803d0ae30be56e56be173bc0189b5438b1a0d2b419e77ede9f22",
+    "src/lab09_lib.py": "cc4d233de574e47a73d2126234ee0b8e9f5d80aa0ed6d4a2fac9748ac0f7b062",
+    "src/lab09_llm.py": "5eabb31fd8ba76f103020177acfb04cdb2127352cbddf22e67f2c0b4835abcb5",
+    "src/run_lr09.py": "a962a37b7cd06caab3b837f37a97ea8d8500271cc528b127844ca127696d2507",
+    "src/summarize9.py": "482d9666607bfad960ce2a2099324057d3851613d13c2eba1c6c9ba6d94bbd15",
+    "reports/hypothesis.md": "55b227389aafc1a564fcec35d33ea698ca321ca0243eeb98283de1b3dbcf796e",
+    "prompts/ctx4_few.txt": "5d17c8c05004d3d9d1b3baaba80fe31ca3ff18a3f0d66301179cbef7444b1273",
+    "prompts/ctx4_step.txt": "922f479eb001083633bc7e5c476449c4f16fae5c7a5bcd5eb09ff55c7545097c",
+    "prompts/ctx4_zero.txt": "40ed714b0469c3d5d9cdcc2e3f5517521d738492fe007b54a5116ea42da63439"
+  }
+}

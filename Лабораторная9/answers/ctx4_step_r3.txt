@@ -1,0 +1,83 @@
+### Ключевые элементы описаний
+
+1. Лекции по экологии
+   - Предмет: лес с многослойными зелёными формами.
+   - Стиль: minimal geometric.
+   - Цвета: green, yellow.
+   - Ограничения: запретов нет.
+   - Композиция: вид сверху (top-down).
+2. Загрязнение рек
+   - Предмет: чистая и мутная вода рядом.
+   - Стиль: watercolor.
+   - Цвета: blue, gray, amber (без зелёного).
+   - Ограничения: зелёный исключён из палитры.
+   - Композиция: симметричная (symmetrical).
+3. Пчёлы и опылители
+   - Предмет: пчела на цветке.
+   - Стиль: macro photography.
+   - Цвета: amber, yellow, orange.
+   - Ограничения: запретов нет.
+   - Композиция: крупный план (close-up).
+4. Климат
+   - Предмет: тающий ледник.
+   - Стиль: photorealistic.
+   - Цвета: ровно blue и white.
+   - Ограничения: запретов нет.
+   - Композиция: широкий план (wide negative space).
+5. Переработка отходов
+   - Предмет: аккуратные стопки цветных материалов.
+   - Стиль: flat vector illustration.
+   - Цвета: orange, teal, yellow.
+   - Ограничения: без текста.
+   - Композиция: centered.
+
+### Итоговый JSON-массив
+```json
+[
+  {
+    "subject": "Layered green forest canopy shapes",
+    "setting": "Dense forest viewed from above",
+    "style": "minimal geometric",
+    "lighting": "Soft morning sunlight",
+    "palette": ["green", "yellow"],
+    "composition": "top-down",
+    "avoid": []
+  },
+  {
+    "subject": "Clean and murky river water side by side",
+    "setting": "River divided into contrasting water sections",
+    "style": "watercolor",
+    "lighting": "Soft diffused daylight",
+    "palette": ["blue", "gray", "amber"],
+    "composition": "symmetrical",
+    "avoid": []
+  },
+  {
+    "subject": "Honeybee resting on a blooming flower",
+    "setting": "Flower surrounded by natural foliage",
+    "style": "macro photography",
+    "lighting": "Warm natural sunlight",
+    "palette": ["amber", "yellow", "orange"],
+    "composition": "close-up",
+    "avoid": []
+  },
+  {
+    "subject": "Melting glacier with visible ice formations",
+    "setting": "Vast polar landscape",
+    "style": "photorealistic",
+    "lighting": "Cool natural daylight",
+    "palette": ["blue", "white"],
+    "composition": "wide negative space",
+    "avoid": []
+  },
+  {
+    "subject": "Neatly stacked colorful recyclable materials",
+    "setting": "Clean minimal recycling workspace",
+    "style": "flat vector illustration",
+    "lighting": "Even soft lighting",
+    "palette": ["orange", "teal", "yellow"],
+    "composition": "centered",
+    "avoid": ["text"]
+  }
+]
+```

@@ -1,0 +1,129 @@
+{
+  "individual": {
+    "ctx4_zero_r1.txt": {
+      "parsed": true,
+      "fenced": false,
+      "n": 5,
+      "k1": 0.8,
+      "k2": 1.0,
+      "k3": 1.0,
+      "errors": [
+        "объект 2: palette: 1–3 цвета из списка"
+      ],
+      "sha256": "e702b8a006f2647e0a0cd8f08bb8cbff8638ced20a1cacbb5ea9050d8d141235"
+    },
+    "ctx4_zero_r2.txt": {
+      "parsed": true,
+      "fenced": false,
+      "n": 5,
+      "k1": 1.0,
+      "k2": 1.0,
+      "k3": 1.0,
+      "errors": [],
+      "sha256": "6248fe8a44b58e8b9d7d403a9145544f232fd24ce713de31e8d7352cf911fe25"
+    },
+    "ctx4_zero_r3.txt": {
+      "parsed": true,
+      "fenced": false,
+      "n": 5,
+      "k1": 1.0,
+      "k2": 0.9666666666666666,
+      "k3": 1.0,
+      "errors": [],
+      "sha256": "aacaf07da7a2da36f617c63e3f55b5dd085c145d5f15ea91828525302d41945c"
+    },
+    "ctx4_few_r1.txt": {
+      "parsed": true,
+      "fenced": false,
+      "n": 5,
+      "k1": 0.8,
+      "k2": 1.0,
+      "k3": 1.0,
+      "errors": [
+        "объект 2: palette: 1–3 цвета из списка"
+      ],
+      "sha256": "ef4d848a70cafdf44ecdb2eed945ce98debd90370714d49f896459f4d59d2f6f"
+    },
+    "ctx4_few_r2.txt": {
+      "parsed": true,
+      "fenced": false,
+      "n": 5,
+      "k1": 0.8,
+      "k2": 1.0,
+      "k3": 1.0,
+      "errors": [
+        "объект 2: palette: 1–3 цвета из списка"
+      ],
+      "sha256": "ef4d848a70cafdf44ecdb2eed945ce98debd90370714d49f896459f4d59d2f6f"
+    },
+    "ctx4_few_r3.txt": {
+      "parsed": true,
+      "fenced": false,
+      "n": 5,
+      "k1": 1.0,
+      "k2": 1.0,
+      "k3": 1.0,
+      "errors": [],
+      "sha256": "428d42e5bd4bd21b22d16f17eb5f30e5cf5c60b90c36e37ae04cdeb1c3d34f9a"
+    },
+    "ctx4_step_r1.txt": {
+      "parsed": true,
+      "fenced": true,
+      "n": 5,
+      "k1": 1.0,
+      "k2": 1.0,
+      "k3": 1.0,
+      "errors": [],
+      "sha256": "125b86a654be7b89346af28b1a029ae85faa9d4f232d3ed3371c40ef97c2b26b"
+    },
+    "ctx4_step_r2.txt": {
+      "parsed": true,
+      "fenced": true,
+      "n": 5,
+      "k1": 1.0,
+      "k2": 1.0,
+      "k3": 1.0,
+      "errors": [],
+      "sha256": "f824cc769392aa6d598dc1bf115b7dbca9c05db760de2765e66857687b7983d4"
+    },
+    "ctx4_step_r3.txt": {
+      "parsed": true,
+      "fenced": true,
+      "n": 5,
+      "k1": 1.0,
+      "k2": 1.0,
+      "k3": 1.0,
+      "errors": [],
+      "sha256": "c01f427984349baee196208b42b4a3b9052e85f3d5203c9944edc5e25a26bc2a"
+    }
+  },
+  "summary": [
+    {
+      "approach": "zero",
+      "k1": 0.9333333333333332,
+      "k2": 0.9888888888888889,
+      "k3": 1.0,
+      "k4": 1.0,
+      "k4_comparisons": 30,
+      "k4_usable_repeats": 3
+    },
+    {
+      "approach": "few",
+      "k1": 0.8666666666666667,
+      "k2": 1.0,
+      "k3": 1.0,
+      "k4": 1.0,
+      "k4_comparisons": 30,
+      "k4_usable_repeats": 3
+    },
+    {
+      "approach": "step",
+      "k1": 1.0,
+      "k2": 1.0,
+      "k3": 1.0,
+      "k4": 1.0,
+      "k4_comparisons": 30,
+      "k4_usable_repeats": 3
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "subject": "Layered green forest canopy shapes viewed from above",
+    "setting": "Expansive dense forest landscape",
+    "style": "minimal geometric",
+    "lighting": "Soft morning light",
+    "palette": ["green"],
+    "composition": "top-down",
+    "avoid": []
+  },
+  {
+    "subject": "Clean and muddy river water side by side",
+    "setting": "Natural river landscape",
+    "style": "watercolor",
+    "lighting": "Soft diffused daylight",
+    "palette": ["blue", "gray"],
+    "composition": "symmetrical",
+    "avoid": []
+  },
+  {
+    "subject": "Honeybee collecting nectar from a flower",
+    "setting": "Flower garden in nature",
+    "style": "macro photography",
+    "lighting": "Warm natural light",
+    "palette": ["amber", "yellow", "green"],
+    "composition": "close-up",
+    "avoid": []
+  },
+  {
+    "subject": "Melting glacier with dramatic icy formations",
+    "setting": "Vast polar glacial landscape",
+    "style": "photorealistic",
+    "lighting": "Soft cold daylight",
+    "palette": ["blue", "white"],
+    "composition": "wide negative space",
+    "avoid": []
+  },
+  {
+    "subject": "Neatly arranged stacks of colorful recyclable materials",
+    "setting": "Clean minimalist studio background",
+    "style": "flat vector illustration",
+    "lighting": "Even soft lighting",
+    "palette": ["orange", "green", "blue"],
+    "composition": "centered",
+    "avoid": ["text"]
+  }
+]

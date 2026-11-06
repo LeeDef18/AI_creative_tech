@@ -1,0 +1,7 @@
+PASS: Python syntax
+PASS: prompts match teacher build_prompt, context 4
+PASS: teacher sources and preregistration hashes
+PASS: scorer rejects incomplete collection; preserves teacher K1/K3/K4; handles unparseable answers and unavailable K4
+Synthetic fixtures used only in a temporary directory. No experimental results obtained.
+PASS: runner orchestration with synthetic model doubles: ten paired images, strict thresholds, passport, hashes, ZIP
+Real SD Turbo/CLIP loading and generation await Engee execution.
