@@ -1,0 +1,4 @@
+PASS: Python syntax, variant settings, sample standard deviation and controls
+PASS: practical boundary, doubled tolerances, undefined ratio at zero spread
+PASS: local links, original library hashes and dependency copy
+Training and PyTorch execution were not performed locally.

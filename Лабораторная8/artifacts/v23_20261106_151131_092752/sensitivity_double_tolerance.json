@@ -1,0 +1,50 @@
+[
+  {
+    "metric": "recon",
+    "A": 21.604115295410157,
+    "s": 1.4958314430665818,
+    "B": 21.604115295410157,
+    "delta": 0.0,
+    "ratio": 0.0,
+    "criterion_2s": false,
+    "control": true,
+    "practical_limit": 2,
+    "practical": "control"
+  },
+  {
+    "metric": "interp",
+    "A": 19.834759267171226,
+    "s": 0.6340536507489904,
+    "B": 19.525993474324544,
+    "delta": -0.3087657928466818,
+    "ratio": 0.48697108278131535,
+    "criterion_2s": false,
+    "control": false,
+    "practical_limit": 2,
+    "practical": "neutral"
+  },
+  {
+    "metric": "sample",
+    "A": 22.636569595336915,
+    "s": 0.5369867951251311,
+    "B": 22.636569595336915,
+    "delta": 0.0,
+    "ratio": 0.0,
+    "criterion_2s": false,
+    "control": true,
+    "practical_limit": 2,
+    "practical": "control"
+  },
+  {
+    "metric": "r2",
+    "A": 0.5434146165847779,
+    "s": 0.0465985868363326,
+    "B": 0.5434146165847779,
+    "delta": 0.0,
+    "ratio": 0.0,
+    "criterion_2s": false,
+    "control": true,
+    "practical_limit": 0.1,
+    "practical": "control"
+  }
+]

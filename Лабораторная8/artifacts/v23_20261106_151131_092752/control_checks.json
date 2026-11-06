@@ -1,0 +1,6 @@
+{
+  "shared_model_per_seed": true,
+  "reconstruction_equal": true,
+  "samples_equal": true,
+  "r2_equal": true
+}

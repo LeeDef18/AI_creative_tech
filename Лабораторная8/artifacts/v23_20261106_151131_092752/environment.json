@@ -1,0 +1,18 @@
+{
+  "engee": "26.102-H3",
+  "julia": "1.12.6",
+  "python": "3.11.11 (main, Mar 17 2025, 21:02:09) [Clang 20.1.0 ]",
+  "platform": "Linux-6.8.0-117-generic-x86_64-with-glibc2.35",
+  "device": "cpu",
+  "threads": 4,
+  "cuda_available": false,
+  "gpu": null,
+  "packages": {
+    "torch": "2.4.1+cpu",
+    "numpy": "1.26.4",
+    "Pillow": "11.3.0"
+  },
+  "deterministic_algorithms": false,
+  "cudnn_benchmark": false,
+  "tf32": false
+}

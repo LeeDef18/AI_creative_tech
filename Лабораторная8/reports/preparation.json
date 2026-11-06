@@ -1,0 +1,11 @@
+{
+  "prepared_date": "2026-11-06",
+  "status": "PREPARED_NOT_RUN",
+  "source_sha256": {
+    "src/lab07_lib.py": "d84b83a878f55e95289d76a788dc9fa84d3249d0d33aa719d9db8d6792fd2698",
+    "src/lab08_lib.py": "f414c49bd0df4eb3aae1f822b29ef2eb112979afc078b26bc65645fd3f43fe9f",
+    "src/lab08_demo.py": "8ab781bf6a0e71fb9c007e2a0d88f25f96686aa7fb1237190be9846672865c53",
+    "tools/run_lab08.py": "3272cb84a906a9a0c42d2a88052ce7fc09854fdf419df010f7ad80005e456da9",
+    "reports/hypothesis.md": "a8860d0fa8550f239e960e3e4149492d647f8dd9674e7eaa90509bc9c7ff6cd8"
+  }
+}

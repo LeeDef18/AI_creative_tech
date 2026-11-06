@@ -1,0 +1,16 @@
+{
+  "A": {
+    "d": 8,
+    "beta": 1.0,
+    "interp": "lin",
+    "temp": 1.0,
+    "epochs": 30
+  },
+  "B": {
+    "d": 8,
+    "beta": 1.0,
+    "interp": "slerp",
+    "temp": 1.0,
+    "epochs": 30
+  }
+}

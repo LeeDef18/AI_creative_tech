@@ -1,0 +1,64 @@
+{
+  "variant": 23,
+  "started": "2026-11-06T15:11:31",
+  "completed": "2026-11-06T15:30:16",
+  "kind": "disc_color",
+  "factor": "interp_linear_to_slerp",
+  "settings_A": {
+    "d": 8,
+    "beta": 1.0,
+    "interp": "lin",
+    "temp": 1.0,
+    "epochs": 30
+  },
+  "settings_B": {
+    "d": 8,
+    "beta": 1.0,
+    "interp": "slerp",
+    "temp": 1.0,
+    "epochs": 30
+  },
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "data_seed": 7,
+  "pair_seed": 11,
+  "n_pairs": 200,
+  "t": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "n_samples": 256,
+  "sample_seed": "1000 + training seed",
+  "comparison_sample_seed": 5,
+  "optimizer": "Adam",
+  "lr": 0.002,
+  "batch": 128,
+  "warmup": 10,
+  "thresholds": {
+    "psnr": 1,
+    "r2": 0.05
+  },
+  "training_seconds": {
+    "101": 37.73279068432748,
+    "102": 38.03819677233696,
+    "103": 36.88585143536329,
+    "104": 40.06230842880905,
+    "105": 40.44787713885307
+  },
+  "demo_seconds": 882.7944575678557,
+  "hypothesis_sha256": "a8860d0fa8550f239e960e3e4149492d647f8dd9674e7eaa90509bc9c7ff6cd8",
+  "source_sha256": {
+    "sources/run_lab08.py": "3272cb84a906a9a0c42d2a88052ce7fc09854fdf419df010f7ad80005e456da9",
+    "sources/lab07_lib.py": "d84b83a878f55e95289d76a788dc9fa84d3249d0d33aa719d9db8d6792fd2698",
+    "sources/lab08_lib.py": "f414c49bd0df4eb3aae1f822b29ef2eb112979afc078b26bc65645fd3f43fe9f",
+    "sources/lab08_demo.py": "8ab781bf6a0e71fb9c007e2a0d88f25f96686aa7fb1237190be9846672865c53"
+  },
+  "diagnostics_shared_for_A_B": true,
+  "visual_review": "pending"
+}

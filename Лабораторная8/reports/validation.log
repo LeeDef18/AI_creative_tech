@@ -1,0 +1,6 @@
+PASS: artifact/source/hypothesis hashes, variant settings and five paired seeds
+PASS: summary statistics, CSV/JSON, library summary and doubled tolerances
+PASS: identical control metrics; 6000 per-pair scores and 30 point averages
+PASS: interpolation PSNR independently recomputed from 1200 float32 predictions for seed 101
+PASS: active-axis counts; mu statistics and pair geometry for seed 101
+Training, sample nearest-neighbor PSNR and factor R2 were not recomputed; checkpoints not loaded.
