@@ -1,0 +1,40 @@
+{
+  "lcm": {
+    "pipeline": "LatentConsistencyModelPipeline",
+    "scheduler": "LCMScheduler",
+    "scheduler_config": {
+      "num_train_timesteps": 1000,
+      "beta_start": 0.00085,
+      "beta_end": 0.012,
+      "beta_schedule": "scaled_linear",
+      "trained_betas": null,
+      "original_inference_steps": 50,
+      "clip_sample": false,
+      "clip_sample_range": 1.0,
+      "set_alpha_to_one": true,
+      "steps_offset": 1,
+      "prediction_type": "epsilon",
+      "thresholding": false,
+      "dynamic_thresholding_ratio": 0.995,
+      "sample_max_value": 1.0,
+      "timestep_spacing": "leading",
+      "timestep_scaling": 10.0,
+      "rescale_betas_zero_snr": false,
+      "_use_default_values": [
+        "timestep_scaling"
+      ],
+      "_class_name": "LCMScheduler",
+      "_diffusers_version": "0.22.0.dev0"
+    }
+  },
+  "amused": {
+    "pipeline": "AmusedPipeline",
+    "scheduler": "AmusedScheduler",
+    "scheduler_config": {
+      "mask_token_id": 8255,
+      "masking_schedule": "cosine",
+      "_class_name": "AmusedScheduler",
+      "_diffusers_version": "0.25.0.dev0"
+    }
+  }
+}

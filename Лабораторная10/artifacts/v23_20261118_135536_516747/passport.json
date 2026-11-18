@@ -1,0 +1,67 @@
+{
+  "variant": 23,
+  "context": 4,
+  "pair": [
+    "lcm",
+    "amused"
+  ],
+  "brief": "visual for an ecology lecture series, stylized forest canopy seen from above, layered green shapes, soft morning light, no text, no people",
+  "models": {
+    "lcm": {
+      "repo": "SimianLuo/LCM_Dreamshaper_v7",
+      "revision": "a85df6a8bd976cdd08b4fd8f3b73f229c9e54df5",
+      "steps": 4,
+      "guidance": 8.0,
+      "size": 512,
+      "note": "латентная согласованность, 4 шага"
+    },
+    "amused": {
+      "repo": "amused/amused-256",
+      "revision": "09b6259bf96dbe6d70a852b70812420fe02df55e",
+      "steps": 12,
+      "guidance": 10.0,
+      "size": 256,
+      "note": "маскированные токены (не диффузия), 256×256, 12 шагов"
+    }
+  },
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "clip_model": "openai/clip-vit-large-patch14",
+  "clip_revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+  "text_probe": "written text and letters",
+  "environment": {
+    "engee": "26.10.2-H3",
+    "julia": "1.12.6",
+    "python": "3.11.11 (main, Mar 17 2025, 21:02:09) [Clang 20.1.0 ]",
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 4,
+    "packages": {
+      "torch": "2.4.1+cpu",
+      "diffusers": "0.32.2",
+      "transformers": "4.57.6",
+      "numpy": "1.26.4",
+      "scipy": "1.14.1",
+      "Pillow": "11.3.0",
+      "safetensors": "0.8.0",
+      "huggingface-hub": "0.36.2"
+    }
+  },
+  "metric_resize": [
+    256,
+    256
+  ],
+  "generation_time_excludes": "loading, warmup, CLIP and saving",
+  "tolerances": {
+    "clip_brief": 1,
+    "clip_text": 1,
+    "edge_relative": 0.1,
+    "contrast_relative": 0.1,
+    "time_factor": 1.5
+  }
+}

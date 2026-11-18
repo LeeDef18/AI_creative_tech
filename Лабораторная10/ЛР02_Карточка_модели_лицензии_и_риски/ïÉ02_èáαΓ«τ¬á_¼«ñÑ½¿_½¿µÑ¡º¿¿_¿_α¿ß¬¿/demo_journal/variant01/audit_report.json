@@ -1,0 +1,44 @@
+[
+  {
+    "rule": "R3",
+    "severity": "error",
+    "item": "item01",
+    "message": "CC-BY-NC-SA-4.0: условие NonCommercial противоречит коммерческому использованию"
+  },
+  {
+    "rule": "R5",
+    "severity": "warning",
+    "item": "item01",
+    "message": "CC-BY-NC-SA-4.0: ShareAlike требует передавать производные на тех же условиях; сценарий этого не допускает — нужно решение"
+  },
+  {
+    "rule": "R3",
+    "severity": "error",
+    "item": "item04",
+    "message": "CC-BY-NC-SA-4.0: условие NonCommercial противоречит коммерческому использованию"
+  },
+  {
+    "rule": "R5",
+    "severity": "warning",
+    "item": "item04",
+    "message": "CC-BY-NC-SA-4.0: ShareAlike требует передавать производные на тех же условиях; сценарий этого не допускает — нужно решение"
+  },
+  {
+    "rule": "R3",
+    "severity": "error",
+    "item": "item08",
+    "message": "CC-BY-NC-4.0: условие NonCommercial противоречит коммерческому использованию"
+  },
+  {
+    "rule": "R8",
+    "severity": "warning",
+    "item": "item09",
+    "message": "не указана дата получения"
+  },
+  {
+    "rule": "R3",
+    "severity": "error",
+    "item": "item10",
+    "message": "CC-BY-NC-4.0: условие NonCommercial противоречит коммерческому использованию"
+  }
+]

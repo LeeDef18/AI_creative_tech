@@ -1,0 +1,5 @@
+PASS: artifact hashes, source and preregistration copies, variant configurations
+PASS: ten measurements, CSV/JSON, summary means/sample s, 2s and practical thresholds
+CLIP and image metrics were not recalculated from weights; no new generation performed.
+PASS: DOCX archive and local README links. Report rendered to eight pages; comparison and blind table checked.
+Personal visual assessment completed by the student; five choices match LCM.

@@ -1,0 +1,4 @@
+PASS: syntax, strict practical boundaries, blind mapping, incomplete choices rejected
+PASS: runner on synthetic doubles; two warmups, ten measurements, artifacts and hashes, blind archive excludes key/metrics
+PASS: README local links
+Model downloads and generation not run locally; execution in Engee pending.

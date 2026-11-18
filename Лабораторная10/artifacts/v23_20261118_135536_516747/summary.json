@@ -1,0 +1,62 @@
+[
+  {
+    "metric": "clip_brief",
+    "A": 27.56510764360428,
+    "s": 1.6920389431319856,
+    "B": 23.633704781532288,
+    "delta": -3.931402862071991,
+    "ratio": 2.323470673077367,
+    "criterion_2s": true,
+    "tolerance": 1.0,
+    "practical": true,
+    "practical_double": true
+  },
+  {
+    "metric": "clip_text",
+    "A": 13.573624789714813,
+    "s": 0.3476244328664677,
+    "B": 15.151472687721252,
+    "delta": 1.5778478980064392,
+    "ratio": 4.538944184664185,
+    "criterion_2s": true,
+    "tolerance": 1.0,
+    "practical": true,
+    "practical_double": false
+  },
+  {
+    "metric": "edge",
+    "A": 0.0180541405382294,
+    "s": 0.0012067496966505671,
+    "B": 0.02446326987776425,
+    "delta": 0.006409129339534851,
+    "ratio": 5.311067703040586,
+    "criterion_2s": true,
+    "tolerance": 0.00180541405382294,
+    "practical": true,
+    "practical_double": true
+  },
+  {
+    "metric": "contrast",
+    "A": 0.126791566557411,
+    "s": 0.01455991722819693,
+    "B": 0.2677448884311526,
+    "delta": 0.14095332187374157,
+    "ratio": 9.680915053608237,
+    "criterion_2s": true,
+    "tolerance": 0.0126791566557411,
+    "practical": true,
+    "practical_double": true
+  },
+  {
+    "metric": "seconds",
+    "A": 33.23805332966149,
+    "s": 1.2751851056159054,
+    "B": 36.24920333810151,
+    "delta": 3.011150008440019,
+    "ratio": 2.3613434592193223,
+    "criterion_2s": true,
+    "tolerance": 1.5,
+    "practical": false,
+    "practical_double": false
+  }
+]

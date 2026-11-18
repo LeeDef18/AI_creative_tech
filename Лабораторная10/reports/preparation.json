@@ -1,0 +1,17 @@
+{
+  "prepared_date": "2026-11-18",
+  "status": "prepared_not_run",
+  "variant": 23,
+  "pair": [
+    "lcm",
+    "amused"
+  ],
+  "context": 4,
+  "sha256": {
+    "src/lab10_lib.py": "b53293ebd2422295cfa2fd01e4dcc5f8eaef440c0802a80803d3771c19ce2f6c",
+    "tools/run_lab10.py": "126c49e05879f9da449ea5013b6bf4a32924a00adbd19c4ffc2bb2aa2a429397",
+    "tools/score_blind.py": "5447eb89b305d8b618e65ad47f5a859665143f7f6beaaedf69bce6525e928771",
+    "reports/hypothesis.md": "4b7a6a682386324ecaf2e53134fd2dfbad469ca9e5610b15ba6dee973d6eabd0",
+    "engee/setup.jl": "3a233afd0bb7a8b8d36f3adb326b5e6d4a88fde406fd9678710a17fa5c289527"
+  }
+}
