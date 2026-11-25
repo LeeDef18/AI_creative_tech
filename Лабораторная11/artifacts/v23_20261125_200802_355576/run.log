@@ -1,0 +1,34 @@
+Started: 2026-11-25T20:08:07
+Output: /user/AI_creative_tech/LR11/artifacts/v23_20261125_200802_355576
+Environment: {'engee': '26.11.2-H1', 'julia': '1.12.6', 'python': '3.11.11 (main, Mar 17 2025, 21:02:09) [Clang 20.1.0 ]', 'platform': 'Linux-6.8.0-117-generic-x86_64-with-glibc2.35', 'device': 'cpu', 'threads': 4, 'dtype': 'float32', 'deterministic_algorithms': False, 'packages': {'torch': '2.4.1+cpu', 'numpy': '1.26.4', 'Pillow': '11.3.0', 'matplotlib': '3.9.2'}}
+Snapshot: A seed 101 step 100
+Snapshot: A seed 101 step 300
+Snapshot: A seed 101 step 700
+Snapshot: A seed 101 step 1500
+Measured: A seed 101 {'nn_psnr': 18.87203025817871, 'coverage': 0.1787109375, 'diversity': 0.753677487373352, 'seconds': 126.98955167457461}
+Snapshot: B seed 101 step 100
+Snapshot: B seed 101 step 300
+Snapshot: B seed 101 step 700
+Snapshot: B seed 101 step 1500
+Measured: B seed 101 {'nn_psnr': 8.56356143951416, 'coverage': 0.0, 'diversity': 0.09911216795444489, 'seconds': 113.21009921655059}
+Snapshot: A seed 102 step 1500
+Measured: A seed 102 {'nn_psnr': 18.093353271484375, 'coverage': 0.0, 'diversity': 0.4629959762096405, 'seconds': 129.65637448243797}
+Snapshot: B seed 102 step 1500
+Measured: B seed 102 {'nn_psnr': 18.783905029296875, 'coverage': 0.123046875, 'diversity': 0.8090735673904419, 'seconds': 108.40174218267202}
+Snapshot: A seed 103 step 1500
+Measured: A seed 103 {'nn_psnr': 18.714427947998047, 'coverage': 0.3095703125, 'diversity': 0.9189479947090149, 'seconds': 113.57942473329604}
+Snapshot: B seed 103 step 1500
+Measured: B seed 103 {'nn_psnr': 18.71523094177246, 'coverage': 0.0458984375, 'diversity': 0.6339137554168701, 'seconds': 104.09102886728942}
+Snapshot: A seed 104 step 1500
+Measured: A seed 104 {'nn_psnr': 18.412113189697266, 'coverage': 0.1337890625, 'diversity': 0.8051154017448425, 'seconds': 101.7692023217678}
+Snapshot: B seed 104 step 1500
+Measured: B seed 104 {'nn_psnr': 18.34459686279297, 'coverage': 0.0009765625, 'diversity': 0.35118505358695984, 'seconds': 91.49263312481344}
+Snapshot: A seed 105 step 1500
+Measured: A seed 105 {'nn_psnr': 18.34661102294922, 'coverage': 0.0546875, 'diversity': 0.8051988482475281, 'seconds': 102.95132515393198}
+Snapshot: B seed 105 step 1500
+Measured: B seed 105 {'nn_psnr': 15.869744300842285, 'coverage': 0.0, 'diversity': 0.17608405649662018, 'seconds': 95.36910963617265}
+{'metric': 'nn_psnr', 'A': 18.487707138061523, 's': 0.3083196868221009, 'B': 16.05540771484375, 'delta': -2.432299423217774, 'ratio': 7.888887823829426, 'criterion_2s': True, 'tolerance': 0.5, 'practical': True, 'practical_double': True}
+{'metric': 'coverage', 'A': 0.1353515625, 's': 0.11943762609454196, 'B': 0.033984375, 'delta': -0.1013671875, 'ratio': 0.8487039705541524, 'criterion_2s': False, 'tolerance': 0.1, 'practical': True, 'practical_double': False}
+{'metric': 'diversity', 'A': 0.7491871416568756, 's': 0.17103331193465998, 'B': 0.41387372016906737, 'delta': -0.33531342148780824, 'ratio': 1.9605152802976087, 'criterion_2s': False, 'tolerance': 0.05, 'practical': True, 'practical_double': True}
+{'metric': 'seconds', 'A': 114.98917567320169, 's': 13.046078753148954, 'B': 102.51292260549963, 'delta': -12.47625306770206, 'ratio': 0.9563220722311404, 'criterion_2s': False, 'tolerance': 1.5, 'practical': False, 'practical_double': False}
+RESULT: PASS; saved in /user/AI_creative_tech/LR11/artifacts/v23_20261125_200802_355576

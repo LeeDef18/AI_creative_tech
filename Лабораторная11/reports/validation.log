@@ -1,0 +1,14 @@
+PASS: 101 artifact hashes; source and hypothesis copies; variant settings
+PASS: ten measurements, CSV/JSON, all summary statistics and thresholds, ten finite loss histories
+PASS: independent float64 pixel metrics A 101
+PASS: independent float64 pixel metrics A 102
+PASS: independent float64 pixel metrics A 103
+PASS: independent float64 pixel metrics A 104
+PASS: independent float64 pixel metrics A 105
+PASS: independent float64 pixel metrics B 101
+PASS: independent float64 pixel metrics B 102
+PASS: independent float64 pixel metrics B 103
+PASS: independent float64 pixel metrics B 104
+PASS: independent float64 pixel metrics B 105
+Weights not loaded; no new training. Training time cannot be independently replayed.
+PASS: report DOCX archive, preserved logo, local documentation links; rendered to 11 pages without blank pages.

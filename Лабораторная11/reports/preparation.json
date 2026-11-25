@@ -1,0 +1,19 @@
+{
+  "prepared_date": "2026-11-25",
+  "variant": 23,
+  "kind": "disc_color",
+  "status": "prepared_not_run",
+  "factor": "bn_on_to_off",
+  "sha256": {
+    "src/lab11_lib.py": "88b6083ffa28bd26ce2c6f4e9c142babae7398eb89185636aaa3207dfe7f396b",
+    "src/demo_gan.py": "f91864ac04208291d274eee14217f5d89291030cbc864eb73b5b0f2467535fe5",
+    "src/run_lab.py": "5caef351ca0c333bc2118cc1efaf52d99d36ab1b86e16d5df6f79583ff739722",
+    "src/summarize_lab.py": "1b2f632ebfa9e2d8ee81007d7a546f6080605d0dc7375bbf90412525b53ae5a6",
+    "src/stack_png.py": "b4c2dc77d3f001a26321d6f04373c9463368e1ea7d8d68be491ce56e4e4694bc",
+    "src/lab07_lib.py": "d84b83a878f55e95289d76a788dc9fa84d3249d0d33aa719d9db8d6792fd2698",
+    "tools/run_lab11.py": "07ac99cf89fc0035fe29d4dbf315bbc72d890afa56db5277916f7e72ff328522",
+    "reports/hypothesis.md": "bf1856103f3db363bcba3d6046f0a3a980f365e0897e654a18d1850528e0c1f2",
+    "engee/setup.jl": "b70916868a79fc38a127aa98d7721bc17f95b5319eb972fbaa52c65f11d8017d",
+    "inputs/title_template.docx": "65bf66f3bb1ea31da73b08ebbc5c32895bbde6d0f67baa8f9aee6be4ef3cbed8"
+  }
+}
