@@ -1,0 +1,32 @@
+{
+  "prepared_date": "2026-11-27",
+  "status": "prepared_not_run",
+  "variant": 23,
+  "kind": "disc_color",
+  "A": {
+    "model": "base_3000",
+    "n": 1000,
+    "n_real": 1000,
+    "resize": "bilinear",
+    "ref": "train"
+  },
+  "B": {
+    "model": "strong_3000",
+    "n": 1000,
+    "n_real": 1000,
+    "resize": "bilinear",
+    "ref": "train"
+  },
+  "sha256": {
+    "src/lab11_lib.py": "88b6083ffa28bd26ce2c6f4e9c142babae7398eb89185636aaa3207dfe7f396b",
+    "src/run13.py": "23be9c82c853729159bd4a8ef775d503352f6dfcc18bd37e9b2dcba196920e2a",
+    "src/demo13.py": "ebdb07226b8e02bb2c72965dd1a15666441620f15a0067cea0fd946245ffc792",
+    "src/summarize13.py": "08d27ee936136c5eecd25666374e91e41a4bee5b6e98c0dcb0c84f9d113acfb8",
+    "src/lab13_lib.py": "c858de76c66fcec46e337f3d2a6d1331b6cf5dc3ad6e76fd9615ab5afe260acf",
+    "src/lab07_lib.py": "d84b83a878f55e95289d76a788dc9fa84d3249d0d33aa719d9db8d6792fd2698",
+    "tools/run_lab13.py": "d375654193bec006187a79e036bc11ded8e62d7277206007d8dda069a1e0c2d7",
+    "reports/hypothesis.md": "41b514f8832689b0b1d689f78e733467c7052c7c53d2d23e1a47fadfb99c44e0",
+    "engee/setup.jl": "3a81b1d1c5c125c25dd3d548eb7ce3d6898b593b44c1efaade2686757f7ee7b2",
+    "inputs/title_template.docx": "b85b0f34caf35097aa6cbf97f7b0fdf58deb3f468e606824abfb8c954c8e58d8"
+  }
+}

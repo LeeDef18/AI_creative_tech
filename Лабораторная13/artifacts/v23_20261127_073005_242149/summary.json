@@ -1,0 +1,50 @@
+[
+  {
+    "metric": "fid",
+    "A": 198.19509174493822,
+    "s": 0.8410346161766582,
+    "B": 180.98132703375035,
+    "delta": -17.213764711187878,
+    "ratio": 20.467367668457715,
+    "criterion_2s": true,
+    "tolerance": 19.819509174493824,
+    "practical": false,
+    "practical_double": false
+  },
+  {
+    "metric": "fid_inf",
+    "A": 195.8302718800316,
+    "s": 1.9552462748344137,
+    "B": 179.50878908351208,
+    "delta": -16.32148279651952,
+    "ratio": 8.34753299703985,
+    "criterion_2s": true,
+    "tolerance": 19.58302718800316,
+    "practical": false,
+    "practical_double": false
+  },
+  {
+    "metric": "kid",
+    "A": 199.49411638015545,
+    "s": 0.6891415143285695,
+    "B": 205.17440807537355,
+    "delta": 5.680291695218102,
+    "ratio": 8.242562053096467,
+    "criterion_2s": true,
+    "tolerance": 5.0,
+    "practical": true,
+    "practical_double": false
+  },
+  {
+    "metric": "seconds",
+    "A": 2.7186971314251425,
+    "s": 0.22282051753330054,
+    "B": 2.8355616733431814,
+    "delta": 0.11686454191803897,
+    "ratio": 0.5244783703573148,
+    "criterion_2s": false,
+    "tolerance": 1.5,
+    "practical": false,
+    "practical_double": false
+  }
+]

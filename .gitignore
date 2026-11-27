@@ -1,3 +1,4 @@
 **/.venv/
 **/__pycache__/
 *.py[cod]
+Лабораторная13/artifacts/**/feat13_*.npz

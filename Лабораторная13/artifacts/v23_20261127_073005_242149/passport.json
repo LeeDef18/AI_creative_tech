@@ -1,0 +1,72 @@
+{
+  "variant": 23,
+  "kind": "disc_color",
+  "factor": "model_base_to_strong_d",
+  "A": {
+    "model": "base_3000",
+    "n": 1000,
+    "n_real": 1000,
+    "resize": "bilinear",
+    "ref": "train"
+  },
+  "B": {
+    "model": "strong_3000",
+    "n": 1000,
+    "n_real": 1000,
+    "resize": "bilinear",
+    "ref": "train"
+  },
+  "training_seed": 101,
+  "subsample_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "feature_dim": 2048,
+  "feature_block": "pool3",
+  "resize_target": [
+    299,
+    299
+  ],
+  "normalize_input": true,
+  "resize_mode": "bilinear",
+  "align_corners": false,
+  "real_reference": "train",
+  "real_pool": 2048,
+  "main_n_real": 1000,
+  "main_n_fake": 1000,
+  "generated_u8": true,
+  "feature_storage_dtype": "float32",
+  "calculation_dtype": "float64",
+  "curve_sizes": [
+    125,
+    250,
+    500,
+    1000,
+    2000
+  ],
+  "tolerances": {
+    "fid_relative": 0.1,
+    "fid_inf_relative": 0.1,
+    "kid": 5,
+    "time_factor": 1.5
+  },
+  "environment": {
+    "engee": "26.11.2-H1",
+    "julia": "1.12.6",
+    "python": "3.11.11 (main, Mar 17 2025, 21:02:09) [Clang 20.1.0 ]",
+    "device": "cpu",
+    "threads": 4,
+    "packages": {
+      "torch": "2.4.1+cpu",
+      "torchvision": "0.19.1+cpu",
+      "numpy": "1.26.4",
+      "pytorch-fid": "0.3.0",
+      "scipy": "1.14.1",
+      "Pillow": "11.3.0",
+      "matplotlib": "3.9.2"
+    }
+  }
+}

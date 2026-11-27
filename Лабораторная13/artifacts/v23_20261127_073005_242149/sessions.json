@@ -1,0 +1,22 @@
+[
+  {
+    "started_at": "2026-11-27T07:30:08",
+    "stage": "all",
+    "environment": {
+      "engee": "26.11.2-H1",
+      "julia": "1.12.6",
+      "python": "3.11.11 (main, Mar 17 2025, 21:02:09) [Clang 20.1.0 ]",
+      "device": "cpu",
+      "threads": 4,
+      "packages": {
+        "torch": "2.4.1+cpu",
+        "torchvision": "0.19.1+cpu",
+        "numpy": "1.26.4",
+        "pytorch-fid": "0.3.0",
+        "scipy": "1.14.1",
+        "Pillow": "11.3.0",
+        "matplotlib": "3.9.2"
+      }
+    }
+  }
+]

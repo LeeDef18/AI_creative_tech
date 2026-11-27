@@ -1,0 +1,42 @@
+{
+  "real_train_bilinear": [
+    2048,
+    2048
+  ],
+  "real_test_bilinear": [
+    1024,
+    2048
+  ],
+  "real_train_nearest": [
+    1024,
+    2048
+  ],
+  "base_300_bilinear": [
+    1024,
+    2048
+  ],
+  "base_700_bilinear": [
+    1024,
+    2048
+  ],
+  "base_1500_bilinear": [
+    2048,
+    2048
+  ],
+  "base_3000_bilinear": [
+    2048,
+    2048
+  ],
+  "strong_3000_bilinear": [
+    1024,
+    2048
+  ],
+  "base_1500_nearest": [
+    1024,
+    2048
+  ],
+  "base_3000_nearest": [
+    1024,
+    2048
+  ]
+}

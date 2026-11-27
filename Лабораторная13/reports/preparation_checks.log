@@ -1,0 +1,7 @@
+PASS: Python syntax and dependency copies
+PASS: variant 23, one changed model; analytic FID zero/shift=5 and permissible negative KID
+PASS: teacher measurement path on small synthetic features; reproducible subsampling and finite FID/FID_inf/KID
+PASS: strict practical thresholds, including KID scale and time ratio
+PASS: README local links, DOCX title/topic and embedded media
+Tests used temporary synthetic features, not experimental results. Actual GAN training and Inception extraction await Engee.
+PASS: title PDF rendered with correct laboratory number and topic; preparation hashes verified.

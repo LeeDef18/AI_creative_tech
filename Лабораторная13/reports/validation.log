@@ -1,0 +1,17 @@
+PASS: 39 artifact hashes, source/hypothesis copies and variant settings
+PASS: measurements CSV/JSON, summary statistics, thresholds, 25 curve values/statistics and stored controls
+PASS: independent FID/KID from saved features A 101
+PASS: independent FID/KID from saved features B 101
+PASS: independent FID/KID from saved features A 102
+PASS: independent FID/KID from saved features B 102
+PASS: independent FID/KID from saved features A 103
+PASS: independent FID/KID from saved features B 103
+PASS: independent FID/KID from saved features A 104
+PASS: independent FID/KID from saved features B 104
+PASS: independent FID/KID from saved features A 105
+PASS: independent FID/KID from saved features B 105
+PASS: feature shapes/part consistency; FID_inf independently recomputed for A/B seed 101
+Training, Inception extraction, Gaussian draws and remaining FID_inf/curve distances not rerun; timing not replayed.
+Independent numerical check: NumPy 2.5.5, float64, four OpenBLAS threads.
+PASS: DOCX archive and local README links; final PDF has 10 pages, title/logo and figures checked.
+PASS: aggregate NPZ rebuilt from individual NPY parts in a temporary folder; exact original SHA-256 recovered.
