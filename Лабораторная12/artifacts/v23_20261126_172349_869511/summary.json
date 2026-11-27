@@ -1,0 +1,50 @@
+[
+  {
+    "metric": "nn_psnr",
+    "A": 18.78904457092285,
+    "s": 0.9823685536401322,
+    "B": 19.641453552246094,
+    "delta": 0.8524089813232436,
+    "ratio": 0.8677079270958664,
+    "criterion_2s": false,
+    "tolerance": 0.5,
+    "practical": true,
+    "practical_double": false
+  },
+  {
+    "metric": "coverage",
+    "A": 0.3970703125,
+    "s": 0.2793793243141805,
+    "B": 0.9841796875,
+    "delta": 0.5871093749999999,
+    "ratio": 2.101477539331997,
+    "criterion_2s": true,
+    "tolerance": 0.1,
+    "practical": true,
+    "practical_double": true
+  },
+  {
+    "metric": "diversity",
+    "A": 0.7813620567321777,
+    "s": 0.03923325132456746,
+    "B": 0.9780858993530274,
+    "delta": 0.19672384262084963,
+    "ratio": 5.014212077235189,
+    "criterion_2s": true,
+    "tolerance": 0.05,
+    "practical": true,
+    "practical_double": true
+  },
+  {
+    "metric": "seconds",
+    "A": 173.34154207631946,
+    "s": 12.501564339581778,
+    "B": 59.064536455273625,
+    "delta": -114.27700562104583,
+    "ratio": 9.141016477372208,
+    "criterion_2s": true,
+    "tolerance": 1.5,
+    "practical": true,
+    "practical_double": true
+  }
+]

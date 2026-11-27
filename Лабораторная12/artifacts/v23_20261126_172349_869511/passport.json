@@ -1,0 +1,81 @@
+{
+  "variant": 23,
+  "kind": "disc_rect",
+  "factor": "ttur",
+  "main_metric": "coverage",
+  "A": {
+    "z": 32,
+    "gw": 1.0,
+    "bn": true,
+    "lr_g": 0.0002,
+    "lr_d": 0.001,
+    "beta1": 0.5,
+    "loss": "nonsat",
+    "steps": 1000,
+    "batch": 64,
+    "n_critic": 5,
+    "smooth": 1.0,
+    "noise": 0.0,
+    "sn": false,
+    "gp": 10.0,
+    "drop": 0.0,
+    "n_train": 4096
+  },
+  "B": {
+    "z": 32,
+    "gw": 1.0,
+    "bn": true,
+    "lr_g": 0.0004,
+    "lr_d": 0.0001,
+    "beta1": 0.5,
+    "loss": "nonsat",
+    "steps": 1000,
+    "batch": 64,
+    "n_critic": 1,
+    "smooth": 1.0,
+    "noise": 0.0,
+    "sn": false,
+    "gp": 10.0,
+    "drop": 0.0,
+    "n_train": 4096
+  },
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "dataset_seed": 7,
+  "n_train": 4096,
+  "n_test": 1024,
+  "n_eval": 1024,
+  "k_cover": 20,
+  "snapshots": [
+    100,
+    300,
+    700,
+    1000
+  ],
+  "visual_seed": 7,
+  "evaluation_seed": "1000+training_seed",
+  "metric_sample_batch": 256,
+  "visual_sample_batch": 32,
+  "time_definition": "train_gan wall time minus callback wall time",
+  "environment": {
+    "engee": "26.11.2-H1",
+    "julia": "1.12.6",
+    "python": "3.11.11 (main, Mar 17 2025, 21:02:09) [Clang 20.1.0 ]",
+    "platform": "Linux-6.8.0-117-generic-x86_64-with-glibc2.35",
+    "device": "cpu",
+    "threads": 4,
+    "dtype": "float32",
+    "deterministic_algorithms": false,
+    "packages": {
+      "torch": "2.4.1+cpu",
+      "numpy": "1.26.4",
+      "Pillow": "11.3.0",
+      "matplotlib": "3.9.2"
+    }
+  }
+}

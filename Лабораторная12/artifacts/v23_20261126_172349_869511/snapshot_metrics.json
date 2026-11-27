@@ -1,0 +1,66 @@
+[
+  {
+    "condition": "A",
+    "seed": 101,
+    "step": 100,
+    "nn_psnr": 11.11932373046875,
+    "coverage": 0.0,
+    "diversity": 0.2443293184041977
+  },
+  {
+    "condition": "A",
+    "seed": 101,
+    "step": 300,
+    "nn_psnr": 15.959921836853027,
+    "coverage": 0.0,
+    "diversity": 0.2745847702026367
+  },
+  {
+    "condition": "A",
+    "seed": 101,
+    "step": 700,
+    "nn_psnr": 16.280902862548828,
+    "coverage": 0.0,
+    "diversity": 0.5969160199165344
+  },
+  {
+    "condition": "A",
+    "seed": 101,
+    "step": 1000,
+    "nn_psnr": 17.32678985595703,
+    "coverage": 0.0078125,
+    "diversity": 0.717562198638916
+  },
+  {
+    "condition": "B",
+    "seed": 101,
+    "step": 100,
+    "nn_psnr": 15.707605361938477,
+    "coverage": 0.0,
+    "diversity": 0.3892756700515747
+  },
+  {
+    "condition": "B",
+    "seed": 101,
+    "step": 300,
+    "nn_psnr": 17.063270568847656,
+    "coverage": 0.0009765625,
+    "diversity": 0.9287745952606201
+  },
+  {
+    "condition": "B",
+    "seed": 101,
+    "step": 700,
+    "nn_psnr": 19.053003311157227,
+    "coverage": 0.93359375,
+    "diversity": 0.988836407661438
+  },
+  {
+    "condition": "B",
+    "seed": 101,
+    "step": 1000,
+    "nn_psnr": 19.409000396728516,
+    "coverage": 0.9677734375,
+    "diversity": 0.9992891550064087
+  }
+]
